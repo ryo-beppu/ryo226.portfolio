@@ -1,0 +1,2 @@
+(this["webpackJsonpryo226.portfolio"]=this["webpackJsonpryo226.portfolio"]||[]).push([[0],{3:function(o,t,e){o.exports=e(4)},4:function(o,t,e){"use strict";e.r(t);var n=e(0),r=e.n(n),c=e(2),i=e.n(c);e(9);i.a.render(r.a.createElement("h1",null,"Hello! React"),document.getElementById("root"))},9:function(o,t,e){}},[[3,1,2]]]);
+//# sourceMappingURL=main.74581314.chunk.js.map
