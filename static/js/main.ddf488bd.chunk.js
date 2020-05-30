@@ -1,0 +1,2 @@
+(this["webpackJsonpryo226.portfolio"]=this["webpackJsonpryo226.portfolio"]||[]).push([[0],{3:function(e,t,n){e.exports=n(9)},8:function(e,t,n){},9:function(e,t,n){"use strict";n.r(t);var o=n(0),r=n.n(o),a=n(2),i=n.n(a),c=function(){return r.a.createElement("div",{id:"load"},r.a.createElement("div",{id:"loadAnim"},"Hello!React"))};n(8);i.a.render(r.a.createElement(c,null),document.getElementById("app"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.ddf488bd.chunk.js.map
