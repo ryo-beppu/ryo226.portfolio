@@ -11,11 +11,14 @@
     "@types/node": "^14.0.5",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
+    "@types/vivus": "^0.4.2",
     "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "typescript": "^3.9.3"
+    "react-vivus": "^0.0.2",
+    "typescript": "^3.9.3",
+    "vivus": "^0.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
