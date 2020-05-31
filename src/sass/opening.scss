@@ -8,5 +8,8 @@
         max-width: 100%;
         height:auto;
         transform: translateY(-50%);
+        #SVGOPAnim{
+            filter: drop-shadow(0 0 5px #09fbd3) drop-shadow(0 0 10px #09fbd3);
+        }
     }
 }
