@@ -1,20 +1,18 @@
-import React from 'react';
-import Vivus from 'vivus';
+import React, { useEffect } from 'react';
+import Vivus, { VivusOptions } from 'vivus';
 import '../../sass/opening.scss';
-import svg from '../../images/opening/OpeningAnim.svg';
+import Svg from '../../images/opening/OpeningAnim.svg';
 
-class Opening extends React.Component {
-  componentDidMount(){
-    new Vivus('loadAnim', {file:svg,type:'scenario-sync'});
-  }
+const Opening: React.FC<VivusOptions> = () => {
+  useEffect(() => {
+    new Vivus('loadAnim', { file: Svg, type: 'scenario-sync' });
+  }, []);
 
-  render() {
-    return (
-      <div id="load" >
-        < div id="loadAnim" ></div>
-      </div >
-    )
-  }
+  return (
+    <div id="load">
+      <div id="loadAnim" />
+    </div>
+  );
 };
 
 export default Opening;
