@@ -1,0 +1,23 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "jsx": true,
+      "useJSXTextNode": true
+    },
+    "plugins": ["@typescript-eslint","prettier"],
+    "extends": [
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended",
+      "prettier/@typescript-eslint"
+    ],
+    "rules": {
+      "import/extensions":"off",
+      "prettier/prettier":[
+        "error",
+        {
+          "tabWidth":2,
+          "arrowParens": "always"
+        }
+      ]
+    }
+}
