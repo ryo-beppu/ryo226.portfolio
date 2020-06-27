@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import Vivus, { VivusOptions } from "vivus";
-import "../../sass/opening.scss";
-import Svg from "../../images/opening/OpeningAnim.svg";
+import svg from "../images/OpeningAnim.svg";
+import "../sass/opening.scss";
 
 const Opening: React.FC<VivusOptions> = () => {
   useEffect(() => {
-    new Vivus("loadAnim", { file: Svg, type: "scenario-sync" });
+    new Vivus("loadAnim", { file: svg, type: "scenario-sync" });
   }, []);
 
   return (
