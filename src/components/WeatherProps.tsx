@@ -52,7 +52,7 @@ export function Thunderstorm() {
     new Vivus("thunderstorm", {
       file: thunderstorm,
       type: "scenario-sync",
-      duration: 10,
+      duration: 30,
     });
   }, []);
 
@@ -66,7 +66,7 @@ export function Thunderstorm() {
 export function Error() {
   useEffect(() => {
     // eslint-disable-next-line no-new
-    new Vivus("error", { file: error, type: "scenario-sync", duration: 30 });
+    new Vivus("error", { file: error, type: "scenario-sync", duration: 15 });
   }, []);
 
   return (
