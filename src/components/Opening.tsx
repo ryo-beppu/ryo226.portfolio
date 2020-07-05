@@ -5,6 +5,7 @@ import "../sass/opening.scss";
 
 const Opening: React.FC<VivusOptions> = () => {
   useEffect(() => {
+    // eslint-disable-next-line no-new
     new Vivus("loadAnim", { file: svg, type: "scenario-sync" });
   }, []);
 

@@ -1,0 +1,17 @@
+#weather{
+  width:100%;
+  height: 100vh;
+  position:relative;
+  #Cloudy{
+    filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px #fff);
+  }
+  #Rain{
+    filter: drop-shadow(0 0 5px #09fbd3) drop-shadow(0 0 10px #09fbd3);
+  }
+  #Sun{
+    filter: drop-shadow(0 0 5px #f148fb) drop-shadow(0 0 10px #f148fb);
+  }
+  #Thunder{
+    filter: drop-shadow(0 0 5px #f5d300) drop-shadow(0 0 10px #f5d300);
+  }
+}

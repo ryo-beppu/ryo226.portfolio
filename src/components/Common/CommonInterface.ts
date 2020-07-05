@@ -1,14 +1,19 @@
 export interface WeatherProps {
+  isFetching: boolean;
+  payload: WeatherProp;
+}
+
+export interface WeatherProp {
   dt: number;
   main: {
     temp: number;
-    temp_min: number;
-    temp_max: number;
+    tempMin: number;
+    tempMax: number;
     pressure: number;
-    sea_level: number;
-    grnd_level: number;
+    seaLevel: number;
+    grndLevel: number;
     humidity: number;
-    temp_kf: number;
+    tempKf: number;
   };
   weather: [
     {
@@ -28,5 +33,5 @@ export interface WeatherProps {
   sys?: {
     pod: string;
   };
-  dt_txt: string;
+  dtTxt: string;
 }
