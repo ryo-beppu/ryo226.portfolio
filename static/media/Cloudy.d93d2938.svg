@@ -1,0 +1,36 @@
+<svg id="Cloudy" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2560 1388">
+    <defs>
+        <style>
+            .cls-1,
+            .cls-2 {
+                fill: none;
+            }
+
+            .cls-2 {
+                stroke: #fff;
+                stroke-miterlimit: 10;
+            }
+
+            .cls-3 {
+                fill: url(#新規パターン_3);
+            }
+        </style>
+        <pattern id="新規パターン_3" data-name="新規パターン 3" width="853.01" height="570.54" patternUnits="userSpaceOnUse"
+            viewBox="0 0 853.01 570.54">
+            <rect class="cls-1" width="853.01" height="570.54" />
+            <line class="cls-2" x1="569.03" y1="570.18" x2="853.59" y2="285.62" />
+            <line class="cls-2" x1="142.52" y1="712.82" x2="427.08" y2="428.26" />
+            <line class="cls-2" x1="427.08" y1="428.26" x2="710.49" y2="711.66" />
+            <line class="cls-2" x1="-283.98" y1="570.18" x2="0.58" y2="285.62" />
+            <line class="cls-2" x1="0.58" y1="285.62" x2="283.98" y2="569.03" />
+            <line class="cls-2" x1="569.03" y1="284.91" x2="853.59" y2="0.35" />
+            <line class="cls-2" x1="142.52" y1="427.55" x2="427.08" y2="142.99" />
+            <line class="cls-2" x1="427.08" y1="142.99" x2="710.49" y2="426.4" />
+            <line class="cls-2" x1="-283.98" y1="284.91" x2="0.58" y2="0.35" />
+            <line class="cls-2" x1="0.58" y1="0.35" x2="283.98" y2="283.76" />
+            <line class="cls-2" x1="142.52" y1="142.28" x2="427.08" y2="-142.28" />
+            <line class="cls-2" x1="427.08" y1="-142.28" x2="710.49" y2="141.13" />
+        </pattern>
+    </defs>
+    <rect id="Cloudy" class="cls-3" width="2560" height="1388" />
+</svg>
