@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { WeatherProps, WeatherProp } from "./Common/CommonInterface";
 import { getWeatherData } from "../redux/action";
-import { Sun, Rain, Clouds, Thunderstorm } from "./WeatherProps";
+import { Sun, Rain, Clouds, Thunderstorm, Error } from "./WeatherProps";
 
 function ChangeWeather() {
   const dispatch = useDispatch();
@@ -35,16 +35,12 @@ function ChangeWeather() {
     case "Clouds":
       return <Clouds />;
     default:
-      return <div id="error">error</div>;
+      return <Error />;
   }
 }
 
 const Weather: React.FC = () => {
-  return (
-    <div>
-      <ChangeWeather />
-    </div>
-  );
+  return <ChangeWeather />;
 };
 
 export default Weather;
