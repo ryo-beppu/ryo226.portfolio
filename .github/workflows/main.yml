@@ -1,0 +1,11 @@
+name: CI
+
+on: [push]
+
+jobs:
+  syntax:
+    
+    runs-on: node
+    steps:
+      - run: yarn install
+      - run: yarn lint
