@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Vivus from "vivus";
 import cloudy from "../images/Cloudy.svg";
 import rain from "../images/Rain.svg";
@@ -8,10 +8,15 @@ import error from "../images/Error.svg";
 import "../sass/weatherProps.scss";
 
 export function Clouds() {
+  const svg = useRef("clouds");
   useEffect(() => {
-    // eslint-disable-next-line no-new
-    new Vivus("clouds", { file: cloudy, type: "scenario-sync", duration: 30 });
-  }, []);
+    const vivusClouds = new Vivus(svg.current, {
+      file: cloudy,
+      type: "scenario-sync",
+      start: "autostart",
+      duration: 30,
+    });
+  }, [svg.current]);
 
   return (
     <div id="weather">
@@ -21,10 +26,15 @@ export function Clouds() {
 }
 
 export function Rain() {
+  const svg = useRef("rain");
   useEffect(() => {
-    // eslint-disable-next-line no-new
-    new Vivus("rain", { file: rain, type: "scenario-sync", duration: 30 });
-  }, []);
+    const vivusRain = new Vivus(svg.current, {
+      file: rain,
+      type: "scenario-sync",
+      start: "autostart",
+      duration: 30,
+    });
+  }, [svg.current]);
 
   return (
     <div id="weather">
@@ -34,10 +44,15 @@ export function Rain() {
 }
 
 export function Sun() {
+  const svg = useRef("sun");
   useEffect(() => {
-    // eslint-disable-next-line no-new
-    new Vivus("sun", { file: sun, type: "scenario-sync", duration: 30 });
-  }, []);
+    const vivusSun = new Vivus(svg.current, {
+      file: sun,
+      type: "scenario-sync",
+      start: "autostart",
+      duration: 30,
+    });
+  }, [svg.current]);
 
   return (
     <div id="weather">
@@ -47,14 +62,15 @@ export function Sun() {
 }
 
 export function Thunderstorm() {
+  const svg = useRef("thunderstorm");
   useEffect(() => {
-    // eslint-disable-next-line no-new
-    new Vivus("thunderstorm", {
+    const vivusThunderstorm = new Vivus(svg.current, {
       file: thunderstorm,
       type: "scenario-sync",
+      start: "autostart",
       duration: 30,
     });
-  }, []);
+  }, [svg.current]);
 
   return (
     <div id="weather">
@@ -64,10 +80,15 @@ export function Thunderstorm() {
 }
 
 export function Error() {
+  const svg = useRef("error");
   useEffect(() => {
-    // eslint-disable-next-line no-new
-    new Vivus("error", { file: error, type: "scenario-sync", duration: 15 });
-  }, []);
+    const vivusError = new Vivus(svg.current, {
+      file: error,
+      type: "scenario-sync",
+      start: "autostart",
+      duration: 15,
+    });
+  }, [svg.current]);
 
   return (
     <div id="weather">

@@ -1,6 +1,7 @@
 export interface WeatherProps {
   isFetching: boolean;
   payload: WeatherProp;
+  chapter: string;
 }
 
 export interface WeatherProp {

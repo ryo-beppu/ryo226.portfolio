@@ -4,8 +4,7 @@ import thunk from "redux-thunk";
 import { createStore, applyMiddleware, compose } from "redux";
 import { Provider } from "react-redux";
 import reducer from "./redux/reducer";
-import Opening from "./components/Opening";
-import Weather from "./components/Weather";
+import Portfolio from "./components/Portfolio";
 import "./sass/index.scss";
 
 interface ExtendedWindow extends Window {
@@ -18,8 +17,7 @@ const store = createStore(reducer, composeEnhancers(applyMiddleware(thunk)));
 
 ReactDOM.render(
   <Provider store={store}>
-    {/* <Opening /> */}
-    <Weather />
+    <Portfolio />
   </Provider>,
   document.getElementById("app")
 );

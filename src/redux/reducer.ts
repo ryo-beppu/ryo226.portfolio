@@ -5,11 +5,13 @@ import { WeatherProp } from "../components/Common/CommonInterface";
 interface State {
   isFetching: boolean;
   payload: WeatherProp[];
+  chapter: string;
 }
 
 const initalState: State = {
   isFetching: false,
   payload: [],
+  chapter: "Opening",
 };
 
 const reducer: Reducer<State> = (state: State = initalState, action) => {
@@ -31,6 +33,11 @@ const reducer: Reducer<State> = (state: State = initalState, action) => {
         ...state,
         isFetching: false,
         error: action.payload,
+      };
+    case ActionTypes.CHANGE_STATE:
+      return {
+        ...state,
+        chapter: action.chapter,
       };
     default:
       return state;
