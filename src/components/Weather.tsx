@@ -1,19 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import { WeatherProps, WeatherProp } from "./Common/CommonInterface";
-import { getWeatherData } from "../redux/action";
+
 import { Sun, Rain, Clouds, Thunderstorm, Error } from "./WeatherProps";
 
 function ChangeWeather() {
-  const dispatch = useDispatch();
   const weatherApiResult = useSelector<WeatherProps, WeatherProp>(
     (state) => state.payload
   );
   const [apiData, setApiData] = useState<WeatherProp["weather"]>();
-
-  useEffect(() => {
-    dispatch(getWeatherData());
-  }, [dispatch]);
 
   useEffect(() => {
     setApiData(weatherApiResult.weather);
@@ -34,8 +29,10 @@ function ChangeWeather() {
       return <Sun />;
     case "Clouds":
       return <Clouds />;
-    default:
+    case undefined:
       return <Error />;
+    default:
+      return <div />;
   }
 }
 

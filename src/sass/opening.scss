@@ -13,3 +13,12 @@
       }
   }
 }
+
+@keyframes strokeAnimation{
+  from{
+    stroke-opacity: 1;
+  }
+  to{
+    stroke-opacity: 0;
+  }
+}

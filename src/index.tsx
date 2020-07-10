@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import thunk from "redux-thunk";
+import { createLogger } from "redux-logger";
 import { createStore, applyMiddleware, compose } from "redux";
 import { Provider } from "react-redux";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import reducer from "./redux/reducer";
-import Portfolio from "./components/Portfolio";
+import Root from "./components/Root";
 import "./sass/index.scss";
 
 interface ExtendedWindow extends Window {
@@ -12,12 +14,35 @@ interface ExtendedWindow extends Window {
 }
 declare let window: ExtendedWindow;
 
+const logger = createLogger({
+  diff: true,
+  collapsed: true,
+});
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-const store = createStore(reducer, composeEnhancers(applyMiddleware(thunk)));
+
+let middleware = [];
+if (process.env.NODE_ENV === "development") {
+  middleware = [thunk, logger];
+} else {
+  middleware = [thunk];
+}
+
+const store = createStore(
+  reducer,
+  composeEnhancers(applyMiddleware(...middleware))
+);
+
+function App() {
+  return (
+    <Router>
+      <Route exact path="/ryo226.portfolio" component={Root} />
+    </Router>
+  );
+}
 
 ReactDOM.render(
   <Provider store={store}>
-    <Portfolio />
+    <App />
   </Provider>,
   document.getElementById("app")
 );

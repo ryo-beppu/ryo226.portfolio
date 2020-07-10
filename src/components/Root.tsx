@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { getWeatherData } from "../redux/action";
+import React from "react";
+import { useSelector } from "react-redux";
 import { WeatherProps } from "./Common/CommonInterface";
 import Opening from "./Opening";
 import Weather from "./Weather";
 
 function ChangeComponent() {
-  const dispatch = useDispatch();
   const stateResult = useSelector<WeatherProps, string>(
     (state) => state.chapter
   );
