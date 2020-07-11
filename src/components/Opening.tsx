@@ -21,15 +21,17 @@ const Opening: React.FC = () => {
         type: "scenario-sync",
       },
       () => {
-        // css.insertRule(".cls-1{animation: strokeAnimation ease-in-out 1s;}", 0);
-        dispatch(ActionCreators.changeState("Weather"));
+        css.insertRule(".cls-1{animation: strokeAnimation ease-in-out 1s;}", 0);
       }
     );
   }, [svg.current]);
 
   return (
     <div id="load">
-      <div id="loadAnim" />
+      <div
+        id="loadAnim"
+        onAnimationEnd={() => dispatch(ActionCreators.changeState("Weather"))}
+      />
     </div>
   );
 };
