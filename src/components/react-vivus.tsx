@@ -5,6 +5,7 @@ interface propsTypes {
   id: string;
   option: VivusOptions;
   className?: string;
+  // eslint-disable-next-line @typescript-eslint/ban-types
   style?: Object;
   callback?: () => void;
   onAnimationEnd?: () => void;

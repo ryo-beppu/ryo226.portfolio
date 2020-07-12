@@ -114,7 +114,7 @@ function ChangeWeather() {
           }}
         />
       );
-    case undefined:
+    case "undefined":
       return (
         <ReactVivus
           id="Error"
@@ -123,18 +123,6 @@ function ChangeWeather() {
             type: "sync",
             start: "autostart",
             animTimingFunction: Vivus.EASE,
-          }}
-          callback={() => {
-            css.insertRule(
-              "#Error{animation: strokeAnimation ease-in-out 1s;}",
-              0
-            );
-            const element = document.querySelector("#Error");
-            if (element != null) {
-              element.addEventListener("animationend", () => {
-                dispatch(ActionCreators.changeState("Status"));
-              });
-            }
           }}
         />
       );
