@@ -17,3 +17,12 @@
     filter: drop-shadow(0 0 5px #ce0000) drop-shadow(0 0 10px #ce0000);
   }
 }
+
+@keyframes strokeAnimation{
+  from{
+    stroke-opacity: 1;
+  }
+  to{
+    stroke-opacity: 0;
+  }
+}

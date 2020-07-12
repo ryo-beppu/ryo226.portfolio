@@ -16,6 +16,7 @@ export interface WeatherProp {
     humidity: number;
     tempKf: number;
   };
+  visibility: number;
   weather: [
     {
       id: number;
@@ -33,6 +34,8 @@ export interface WeatherProp {
   };
   sys?: {
     pod: string;
+    sunrise: number;
+    sunset: number;
   };
   dtTxt: string;
 }

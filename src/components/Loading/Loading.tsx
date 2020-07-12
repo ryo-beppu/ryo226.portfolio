@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import Vivus from "vivus";
-import { ActionCreators, getWeatherData } from "../redux/action";
-import OpeningSVG from "../images/OpeningAnim.svg";
-import "../sass/opening.scss";
+import { ActionCreators, getWeatherData } from "../../redux/action";
+import OpeningSVG from "../../images/OpeningAnim.svg";
+import "../../sass/opening.scss";
 
 const Opening: React.FC = () => {
   const svg = useRef("loadAnim");
