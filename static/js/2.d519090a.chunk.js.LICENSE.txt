@@ -5,6 +5,14 @@ object-assign
 */
 
 /**
+ * A better abstraction over CSS.
+ *
+ * @copyright Oleg Isonen (Slobodskoi) / Isonen 2014-present
+ * @website https://github.com/cssinjs/jss
+ * @license MIT
+ */
+
+/**
  * vivus - JavaScript library to make drawing animation on SVG
  * @version v0.4.5
  * @link https://github.com/maxwellito/vivus
