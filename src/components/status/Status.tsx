@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import Vivus from "vivus";
-// import ReactVivus from "react-vivus";
 import { Grid } from "@material-ui/core";
 import ReactVivus from "../react-vivus";
-import { WeatherProps, WeatherProp } from "../Common/CommonInterface";
+import { WeatherProps, WeatherProp } from "../Common/Interface";
 import item from "../../images/Item.svg";
 import center from "../../images/Center.svg";
 import "../../sass/status.scss";

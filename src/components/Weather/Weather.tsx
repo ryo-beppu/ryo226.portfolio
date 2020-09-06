@@ -2,14 +2,14 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Vivus from "vivus";
 import ReactVivus from "react-vivus";
-import { WeatherProps, WeatherProp } from "../Common/CommonInterface";
+import { WeatherProps, WeatherProp } from "../Common/Interface";
 import { ActionCreators } from "../../redux/action";
 import cloudy from "../../images/Cloudy.svg";
 import rain from "../../images/Rain.svg";
 import sun from "../../images/Sun.svg";
 import thunderstorm from "../../images/Thunder.svg";
-import error from "../../images/Error_animated.svg";
 import "../../sass/weather.scss";
+import NotFound from "../NotFound";
 
 const ChangeWeather: React.FC = () => {
   const dispatch = useDispatch();
@@ -119,7 +119,7 @@ const ChangeWeather: React.FC = () => {
         />
       );
     default:
-      return <img src={error} alt="error" />;
+      return <NotFound />;
   }
 };
 

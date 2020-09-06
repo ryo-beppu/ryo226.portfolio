@@ -1,11 +1,11 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { WeatherProps } from "./Common/CommonInterface";
+import { WeatherProps } from "./Common/Interface";
 import Loading from "./Loading/Loading";
 import Weather from "./Weather/Weather";
 import Status from "./status/Status";
 
-function ChangeComponent() {
+const ChangeComponent: React.FC = () => {
   const stateResult = useSelector<WeatherProps, string>(
     (state) => state.chapter
   );
@@ -18,7 +18,7 @@ function ChangeComponent() {
     default:
       return <Loading />;
   }
-}
+};
 
 const Root: React.FC = () => {
   return <ChangeComponent />;

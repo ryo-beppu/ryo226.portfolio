@@ -4,10 +4,11 @@ import thunk from "redux-thunk";
 import { createLogger } from "redux-logger";
 import { createStore, applyMiddleware, compose } from "redux";
 import { Provider } from "react-redux";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import reducer from "./redux/reducer";
 import Root from "./components/Root";
 import "./sass/index.scss";
+import NotFound from "./components/NotFound";
 
 interface ExtendedWindow extends Window {
   __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
@@ -35,7 +36,10 @@ const store = createStore(
 function App() {
   return (
     <Router>
-      <Route exact path="/ryo226.portfolio" component={Root} />
+      <Switch>
+        <Route exact path="/ryo226.portfolio" component={Root} />
+        <Route component={NotFound} />
+      </Switch>
     </Router>
   );
 }

@@ -1,6 +1,6 @@
 import { Reducer } from "redux";
 import { ActionTypes } from "./action";
-import { WeatherProp } from "../components/Common/CommonInterface";
+import { WeatherProp } from "../components/Common/Interface";
 
 interface State {
   isFetching: boolean;
