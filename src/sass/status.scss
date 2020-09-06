@@ -1,0 +1,33 @@
+p{
+    color:white;
+    filter: drop-shadow(0 0 1px #09fbd3) drop-shadow(0 0 10px #09fbd3);
+}
+
+#center{
+    filter: drop-shadow(0 0 5px #09fbd3) drop-shadow(0 0 10px #09fbd3);
+}
+
+#item1{
+    filter: drop-shadow(0 0 5px #09fbd3) drop-shadow(0 0 10px #09fbd3);
+}
+
+#item2{
+    filter: drop-shadow(0 0 5px #09fbd3) drop-shadow(0 0 10px #09fbd3);
+}
+
+#item3{
+    filter: drop-shadow(0 0 5px #09fbd3) drop-shadow(0 0 10px #09fbd3);
+}
+
+#item4{
+    filter: drop-shadow(0 0 5px #09fbd3) drop-shadow(0 0 10px #09fbd3);
+}
+
+@keyframes strokeAnimation{
+    from{
+      stroke-opacity: 1;
+    }
+    to{
+      stroke-opacity: 0;
+    }
+  }

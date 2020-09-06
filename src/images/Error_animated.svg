@@ -1,0 +1,2528 @@
+<svg
+  id="Layer1"
+  data-name="Layer1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 2560 1388"
+  style=""
+>
+  <defs>
+    <style>
+      .cls-1,
+      .cls-3 {
+        fill: none;
+      }
+      .cls-2 {
+        fill: #ce0000;
+      }
+      .cls-3 {
+        stroke: #ce0000;
+        stroke-miterlimit: 10;
+      }
+      .cls-4 {
+        fill: url(#Pattern4);
+      }
+    </style>
+    <pattern
+      id="Pattern4"
+      data-name="Pattern4"
+      width="927.63"
+      height="869.47"
+      patternUnits="userSpaceOnUse"
+      viewBox="0 0 927.63 869.47"
+    >
+      <path
+        class="cls-1 civINDui_0"
+        width="927.63"
+        height="869.47"
+        d="M0 0 L927.63 0 L927.63 869.47 L0 869.47 Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_1"
+        d="M882.31,892.29V869H896.8v2H884.5v8.57h10.21v2H884.5v8.63h12.3v2Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_2"
+        d="M913.4,892.29l-5.77-8.93h-5.34v8.93H900.1V869h12.17c2.42,0,3.54.55,3.54,3.42V880c0,2.87-1.12,3.41-3.54,3.41H910l5.77,8.93Zm.26-19.78c0-.93-.2-1.45-1.48-1.45h-9.89v10.31h9.89c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_3"
+        d="M933.05,892.29l-5.76-8.93h-5.35v8.93h-2.19V869h12.18c2.41,0,3.54.55,3.54,3.42V880c0,2.87-1.13,3.41-3.54,3.41h-2.32l5.76,8.93Zm.26-19.78c0-.93-.19-1.45-1.48-1.45h-9.89v10.31h9.89c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path class="cls-3 civINDui_4" d="M927.63,711.37L967.25,750.99"></path>
+      <path class="cls-3 civINDui_5" d="M876.68,762.32L848.38,790.62"></path>
+      <path class="cls-3 civINDui_6" d="M927.63,711.37L888,750.99"></path>
+      <path class="cls-3 civINDui_7" d="M927.63,639.31L927.63,599.29"></path>
+      <path class="cls-3 civINDui_8" d="M927.63,711.37L927.63,655.33"></path>
+      <path
+        class="cls-2 civINDui_9"
+        d="M573.1,892.29V869h14.49v2h-12.3v8.57H585.5v2H575.29v8.63h12.3v2Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_10"
+        d="M604.19,892.29l-5.77-8.93h-5.34v8.93h-2.19V869h12.17c2.42,0,3.54.55,3.54,3.42V880c0,2.87-1.12,3.41-3.54,3.41h-2.32l5.77,8.93Zm.26-19.78c0-.93-.2-1.45-1.48-1.45h-9.89v10.31H603c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_11"
+        d="M623.85,892.29l-5.77-8.93h-5.35v8.93h-2.18V869h12.17c2.41,0,3.54.55,3.54,3.42V880c0,2.87-1.13,3.41-3.54,3.41H620.4l5.76,8.93Zm.25-19.78c0-.93-.19-1.45-1.48-1.45h-9.89v10.31h9.89c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_12"
+        d="M633.68,892.29c-2.42,0-3.54-.55-3.54-3.42V872.45c0-2.87,1.12-3.42,3.54-3.42h9.92c2.41,0,3.54.55,3.54,3.42v16.42c0,2.87-1.13,3.42-3.54,3.42ZM645,872.51c0-.93-.19-1.45-1.48-1.45h-9.69c-1.29,0-1.48.52-1.48,1.45v16.33c0,.93.19,1.45,1.48,1.45h9.69c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_13"
+        d="M664.87,892.29l-5.77-8.93h-5.35v8.93h-2.19V869h12.18c2.42,0,3.54.55,3.54,3.42V880c0,2.87-1.12,3.41-3.54,3.41h-2.32l5.76,8.93Zm.25-19.78c0-.93-.19-1.45-1.48-1.45h-9.89v10.31h9.89c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path class="cls-3 civINDui_14" d="M618.42,711.37L658.04,750.99"></path>
+      <path class="cls-3 civINDui_15" d="M567.47,762.32L539.17,790.62"></path>
+      <path class="cls-3 civINDui_16" d="M618.42,711.37L578.79,750.99"></path>
+      <path class="cls-3 civINDui_17" d="M669.37,762.32L697.67,790.62"></path>
+      <path class="cls-3 civINDui_18" d="M618.42,639.31L618.42,599.29"></path>
+      <path class="cls-3 civINDui_19" d="M618.42,711.37L618.42,655.33"></path>
+      <path
+        class="cls-2 civINDui_20"
+        d="M263.89,892.29V869h14.49v2h-12.3v8.57h10.21v2H266.08v8.63h12.3v2Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_21"
+        d="M295,892.29l-5.76-8.93h-5.35v8.93h-2.19V869h12.17c2.42,0,3.55.55,3.55,3.42V880c0,2.87-1.13,3.41-3.55,3.41h-2.32l5.77,8.93Zm.26-19.78c0-.93-.2-1.45-1.48-1.45h-9.89v10.31h9.89c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_22"
+        d="M314.64,892.29l-5.77-8.93h-5.34v8.93h-2.19V869h12.17c2.41,0,3.54.55,3.54,3.42V880c0,2.87-1.13,3.41-3.54,3.41h-2.32l5.77,8.93Zm.25-19.78c0-.93-.19-1.45-1.48-1.45h-9.88v10.31h9.88c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_23"
+        d="M324.47,892.29c-2.42,0-3.54-.55-3.54-3.42V872.45c0-2.87,1.12-3.42,3.54-3.42h9.92c2.41,0,3.54.55,3.54,3.42v16.42c0,2.87-1.13,3.42-3.54,3.42Zm11.3-19.78c0-.93-.19-1.45-1.48-1.45H324.6c-1.29,0-1.48.52-1.48,1.45v16.33c0,.93.19,1.45,1.48,1.45h9.69c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_24"
+        d="M355.66,892.29l-5.77-8.93h-5.35v8.93h-2.18V869h12.17c2.42,0,3.54.55,3.54,3.42V880c0,2.87-1.12,3.41-3.54,3.41h-2.32l5.76,8.93Zm.25-19.78c0-.93-.19-1.45-1.48-1.45h-9.89v10.31h9.89c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path class="cls-3 civINDui_25" d="M309.21,711.37L348.84,750.99"></path>
+      <path class="cls-3 civINDui_26" d="M258.26,762.32L229.96,790.62"></path>
+      <path class="cls-3 civINDui_27" d="M309.21,711.37L269.58,750.99"></path>
+      <path class="cls-3 civINDui_28" d="M360.16,762.32L388.46,790.62"></path>
+      <path class="cls-3 civINDui_29" d="M309.21,639.31L309.21,599.29"></path>
+      <path class="cls-3 civINDui_30" d="M309.21,711.37L309.21,655.33"></path>
+      <path
+        class="cls-2 civINDui_31"
+        d="M5.43,892.29l-5.77-8.93H-5.68v8.93H-7.87V869H4.3c2.42,0,3.54.55,3.54,3.42V880c0,2.87-1.12,3.41-3.54,3.41H2l5.77,8.93Zm.25-19.78c0-.93-.19-1.45-1.48-1.45H-5.68v10.31H4.2c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_32"
+        d="M15.26,892.29c-2.42,0-3.54-.55-3.54-3.42V872.45c0-2.87,1.12-3.42,3.54-3.42h9.92c2.41,0,3.54.55,3.54,3.42v16.42c0,2.87-1.13,3.42-3.54,3.42Zm11.3-19.78c0-.93-.19-1.45-1.48-1.45H15.39c-1.29,0-1.48.52-1.48,1.45v16.33c0,.93.19,1.45,1.48,1.45h9.69c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_33"
+        d="M46.45,892.29l-5.77-8.93H35.34v8.93H33.15V869H45.32c2.42,0,3.54.55,3.54,3.42V880c0,2.87-1.12,3.41-3.54,3.41H43l5.76,8.93Zm.25-19.78c0-.93-.19-1.45-1.48-1.45H35.34v10.31h9.88c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path class="cls-3 civINDui_34" d="M0,711.37L39.63,750.99"></path>
+      <path class="cls-3 civINDui_35" d="M0,711.37L-39.63,750.99"></path>
+      <path class="cls-3 civINDui_36" d="M50.95,762.32L79.25,790.62"></path>
+      <path class="cls-3 civINDui_37" d="M0,639.31L0,599.29"></path>
+      <path class="cls-3 civINDui_38" d="M0,711.37L0,655.33"></path>
+      <path
+        class="cls-2 civINDui_39"
+        d="M727.71,457.55V434.3H742.2v2H729.9v8.56h10.21v2H729.9v8.63h12.3v2Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_40"
+        d="M758.79,457.55,753,448.63h-5.35v8.92h-2.19V434.3h12.18c2.41,0,3.54.55,3.54,3.41v7.5c0,2.87-1.13,3.42-3.54,3.42h-2.32l5.76,8.92Zm.26-19.78c0-.93-.19-1.44-1.48-1.44h-9.89v10.3h9.89c1.32,0,1.48-.51,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_41"
+        d="M778.45,457.55l-5.76-8.92h-5.35v8.92h-2.19V434.3h12.17c2.42,0,3.55.55,3.55,3.41v7.5c0,2.87-1.13,3.42-3.55,3.42H775l5.77,8.92Zm.26-19.78c0-.93-.2-1.44-1.48-1.44h-9.89v10.3h9.89c1.32,0,1.48-.51,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_42"
+        d="M788.28,457.55c-2.41,0-3.54-.55-3.54-3.41V437.71c0-2.86,1.13-3.41,3.54-3.41h9.92c2.42,0,3.55.55,3.55,3.41v16.43c0,2.86-1.13,3.41-3.55,3.41Zm11.31-19.78c0-.93-.2-1.44-1.48-1.44h-9.7c-1.29,0-1.48.51-1.48,1.44V454.1c0,.94.19,1.45,1.48,1.45h9.7c1.32,0,1.48-.51,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_43"
+        d="M819.47,457.55l-5.77-8.92h-5.34v8.92h-2.19V434.3h12.17c2.42,0,3.54.55,3.54,3.41v7.5c0,2.87-1.12,3.42-3.54,3.42H816l5.77,8.92Zm.26-19.78c0-.93-.2-1.44-1.48-1.44h-9.89v10.3h9.89c1.32,0,1.48-.51,1.48-1.45Z"
+      ></path>
+      <path class="cls-3 civINDui_44" d="M773.02,276.63L812.65,316.26"></path>
+      <path class="cls-3 civINDui_45" d="M722.07,327.58L693.77,355.88"></path>
+      <path class="cls-3 civINDui_46" d="M773.02,276.63L733.4,316.26"></path>
+      <path class="cls-3 civINDui_47" d="M823.98,327.58L852.28,355.88"></path>
+      <path class="cls-3 civINDui_48" d="M773.02,204.58L773.02,164.55"></path>
+      <path class="cls-3 civINDui_49" d="M773.02,276.63L773.02,220.59"></path>
+      <path class="cls-3 civINDui_50" d="M773.02,592.84L733.4,553.21"></path>
+      <path class="cls-3 civINDui_51" d="M823.98,541.89L852.28,513.59"></path>
+      <path class="cls-3 civINDui_52" d="M773.02,592.84L812.65,553.21"></path>
+      <path class="cls-3 civINDui_53" d="M722.07,541.89L693.77,513.59"></path>
+      <path class="cls-3 civINDui_54" d="M773.02,664.9L773.02,704.92"></path>
+      <path class="cls-3 civINDui_55" d="M773.02,592.84L773.02,648.88"></path>
+      <path
+        class="cls-2 civINDui_56"
+        d="M418.5,457.55V434.3H433v2h-12.3v8.56H430.9v2H420.69v8.63H433v2Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_57"
+        d="M449.59,457.55l-5.77-8.92h-5.35v8.92h-2.19V434.3h12.18c2.41,0,3.54.55,3.54,3.41v7.5c0,2.87-1.13,3.42-3.54,3.42h-2.32l5.76,8.92Zm.25-19.78c0-.93-.19-1.44-1.48-1.44h-9.89v10.3h9.89c1.32,0,1.48-.51,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_58"
+        d="M469.24,457.55l-5.76-8.92h-5.35v8.92h-2.19V434.3h12.17c2.42,0,3.55.55,3.55,3.41v7.5c0,2.87-1.13,3.42-3.55,3.42h-2.32l5.77,8.92Zm.26-19.78c0-.93-.2-1.44-1.48-1.44h-9.89v10.3H468c1.32,0,1.48-.51,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_59"
+        d="M479.07,457.55c-2.41,0-3.54-.55-3.54-3.41V437.71c0-2.86,1.13-3.41,3.54-3.41H489c2.42,0,3.55.55,3.55,3.41v16.43c0,2.86-1.13,3.41-3.55,3.41Zm11.31-19.78c0-.93-.19-1.44-1.48-1.44h-9.7c-1.29,0-1.48.51-1.48,1.44V454.1c0,.94.19,1.45,1.48,1.45h9.7c1.32,0,1.48-.51,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_60"
+        d="M510.26,457.55l-5.76-8.92h-5.35v8.92H497V434.3h12.17c2.42,0,3.55.55,3.55,3.41v7.5c0,2.87-1.13,3.42-3.55,3.42h-2.32l5.77,8.92Zm.26-19.78c0-.93-.2-1.44-1.48-1.44h-9.89v10.3H509c1.32,0,1.48-.51,1.48-1.45Z"
+      ></path>
+      <path class="cls-3 civINDui_61" d="M463.81,276.63L503.44,316.26"></path>
+      <path class="cls-3 civINDui_62" d="M412.86,327.58L384.56,355.88"></path>
+      <path class="cls-3 civINDui_63" d="M463.81,276.63L424.19,316.26"></path>
+      <path class="cls-3 civINDui_64" d="M514.77,327.58L543.07,355.88"></path>
+      <path class="cls-3 civINDui_65" d="M463.81,204.58L463.81,164.55"></path>
+      <path class="cls-3 civINDui_66" d="M463.81,276.63L463.81,220.59"></path>
+      <path class="cls-3 civINDui_67" d="M463.81,592.84L424.19,553.21"></path>
+      <path class="cls-3 civINDui_68" d="M514.77,541.89L543.07,513.59"></path>
+      <path class="cls-3 civINDui_69" d="M463.81,592.84L503.44,553.21"></path>
+      <path class="cls-3 civINDui_70" d="M412.86,541.89L384.56,513.59"></path>
+      <path class="cls-3 civINDui_71" d="M463.81,664.9L463.81,704.92"></path>
+      <path class="cls-3 civINDui_72" d="M463.81,592.84L463.81,648.88"></path>
+      <path
+        class="cls-2 civINDui_73"
+        d="M109.29,457.55V434.3h14.49v2h-12.3v8.56h10.21v2H111.48v8.63h12.3v2Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_74"
+        d="M140.38,457.55l-5.77-8.92h-5.35v8.92h-2.18V434.3h12.17c2.41,0,3.54.55,3.54,3.41v7.5c0,2.87-1.13,3.42-3.54,3.42h-2.32l5.76,8.92Zm.25-19.78c0-.93-.19-1.44-1.48-1.44h-9.89v10.3h9.89c1.32,0,1.48-.51,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_75"
+        d="M160,457.55l-5.76-8.92h-5.35v8.92h-2.19V434.3H158.9c2.42,0,3.55.55,3.55,3.41v7.5c0,2.87-1.13,3.42-3.55,3.42h-2.31l5.76,8.92Zm.26-19.78c0-.93-.19-1.44-1.48-1.44h-9.89v10.3h9.89c1.32,0,1.48-.51,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_76"
+        d="M169.86,457.55c-2.41,0-3.54-.55-3.54-3.41V437.71c0-2.86,1.13-3.41,3.54-3.41h9.92c2.42,0,3.55.55,3.55,3.41v16.43c0,2.86-1.13,3.41-3.55,3.41Zm11.31-19.78c0-.93-.19-1.44-1.48-1.44H170c-1.29,0-1.48.51-1.48,1.44V454.1c0,.94.19,1.45,1.48,1.45h9.7c1.32,0,1.48-.51,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_77"
+        d="M201.05,457.55l-5.76-8.92h-5.35v8.92h-2.19V434.3h12.17c2.42,0,3.55.55,3.55,3.41v7.5c0,2.87-1.13,3.42-3.55,3.42H197.6l5.77,8.92Zm.26-19.78c0-.93-.2-1.44-1.48-1.44h-9.89v10.3h9.89c1.32,0,1.48-.51,1.48-1.45Z"
+      ></path>
+      <path class="cls-3 civINDui_78" d="M154.6,276.63L194.23,316.26"></path>
+      <path class="cls-3 civINDui_79" d="M103.65,327.58L75.35,355.88"></path>
+      <path class="cls-3 civINDui_80" d="M154.6,276.63L114.98,316.26"></path>
+      <path class="cls-3 civINDui_81" d="M205.56,327.58L233.86,355.88"></path>
+      <path class="cls-3 civINDui_82" d="M154.6,204.58L154.6,164.55"></path>
+      <path class="cls-3 civINDui_83" d="M154.6,276.63L154.6,220.59"></path>
+      <path class="cls-3 civINDui_84" d="M154.6,592.84L114.98,553.21"></path>
+      <path class="cls-3 civINDui_85" d="M205.56,541.89L233.86,513.59"></path>
+      <path class="cls-3 civINDui_86" d="M154.6,592.84L194.23,553.21"></path>
+      <path class="cls-3 civINDui_87" d="M103.65,541.89L75.35,513.59"></path>
+      <path class="cls-3 civINDui_88" d="M154.6,664.9L154.6,704.92"></path>
+      <path class="cls-3 civINDui_89" d="M154.6,592.84L154.6,648.88"></path>
+      <path
+        class="cls-2 civINDui_90"
+        d="M882.31,22.81V-.44H896.8v2H884.5v8.57h10.21v2H884.5v8.63h12.3v2Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_91"
+        d="M913.4,22.81l-5.77-8.92h-5.34v8.92H900.1V-.44h12.17c2.42,0,3.54.55,3.54,3.42v7.5c0,2.86-1.12,3.41-3.54,3.41H910l5.77,8.92ZM913.66,3c0-.93-.2-1.45-1.48-1.45h-9.89V11.9h9.89c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_92"
+        d="M933.05,22.81l-5.76-8.92h-5.35v8.92h-2.19V-.44h12.18c2.41,0,3.54.55,3.54,3.42v7.5c0,2.86-1.13,3.41-3.54,3.41h-2.32l5.76,8.92ZM933.31,3c0-.93-.19-1.45-1.48-1.45h-9.89V11.9h9.89c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path class="cls-3 civINDui_93" d="M927.63,158.1L888,118.48"></path>
+      <path class="cls-3 civINDui_94" d="M927.63,158.1L967.25,118.48"></path>
+      <path class="cls-3 civINDui_95" d="M876.68,107.15L848.38,78.85"></path>
+      <path class="cls-3 civINDui_96" d="M927.63,230.16L927.63,270.18"></path>
+      <path class="cls-3 civINDui_97" d="M927.63,158.1L927.63,214.14"></path>
+      <path
+        class="cls-2 civINDui_98"
+        d="M573.1,22.81V-.44h14.49v2h-12.3v8.57H585.5v2H575.29v8.63h12.3v2Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_99"
+        d="M604.19,22.81l-5.77-8.92h-5.34v8.92h-2.19V-.44h12.17c2.42,0,3.54.55,3.54,3.42v7.5c0,2.86-1.12,3.41-3.54,3.41h-2.32l5.77,8.92ZM604.45,3c0-.93-.2-1.45-1.48-1.45h-9.89V11.9H603c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_100"
+        d="M623.85,22.81l-5.77-8.92h-5.35v8.92h-2.18V-.44h12.17c2.41,0,3.54.55,3.54,3.42v7.5c0,2.86-1.13,3.41-3.54,3.41H620.4l5.76,8.92ZM624.1,3c0-.93-.19-1.45-1.48-1.45h-9.89V11.9h9.89c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_101"
+        d="M633.68,22.81c-2.42,0-3.54-.54-3.54-3.41V3c0-2.87,1.12-3.42,3.54-3.42h9.92c2.41,0,3.54.55,3.54,3.42V19.4c0,2.87-1.13,3.41-3.54,3.41ZM645,3c0-.93-.19-1.45-1.48-1.45h-9.69c-1.29,0-1.48.52-1.48,1.45V19.37c0,.93.19,1.45,1.48,1.45h9.69c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_102"
+        d="M664.87,22.81l-5.77-8.92h-5.35v8.92h-2.19V-.44h12.18c2.42,0,3.54.55,3.54,3.42v7.5c0,2.86-1.12,3.41-3.54,3.41h-2.32l5.76,8.92ZM665.12,3c0-.93-.19-1.45-1.48-1.45h-9.89V11.9h9.89c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path class="cls-3 civINDui_103" d="M618.42,158.1L578.79,118.48"></path>
+      <path class="cls-3 civINDui_104" d="M669.37,107.15L697.67,78.85"></path>
+      <path class="cls-3 civINDui_105" d="M618.42,158.1L658.04,118.48"></path>
+      <path class="cls-3 civINDui_106" d="M567.47,107.15L539.17,78.85"></path>
+      <path class="cls-3 civINDui_107" d="M618.42,230.16L618.42,270.18"></path>
+      <path class="cls-3 civINDui_108" d="M618.42,158.1L618.42,214.14"></path>
+      <path
+        class="cls-2 civINDui_109"
+        d="M263.89,22.81V-.44h14.49v2h-12.3v8.57h10.21v2H266.08v8.63h12.3v2Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_110"
+        d="M295,22.81l-5.76-8.92h-5.35v8.92h-2.19V-.44h12.17c2.42,0,3.55.55,3.55,3.42v7.5c0,2.86-1.13,3.41-3.55,3.41h-2.32l5.77,8.92ZM295.24,3c0-.93-.2-1.45-1.48-1.45h-9.89V11.9h9.89c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_111"
+        d="M314.64,22.81l-5.77-8.92h-5.34v8.92h-2.19V-.44h12.17c2.41,0,3.54.55,3.54,3.42v7.5c0,2.86-1.13,3.41-3.54,3.41h-2.32L317,22.81ZM314.89,3c0-.93-.19-1.45-1.48-1.45h-9.88V11.9h9.88c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_112"
+        d="M324.47,22.81c-2.42,0-3.54-.54-3.54-3.41V3c0-2.87,1.12-3.42,3.54-3.42h9.92c2.41,0,3.54.55,3.54,3.42V19.4c0,2.87-1.13,3.41-3.54,3.41ZM335.77,3c0-.93-.19-1.45-1.48-1.45H324.6c-1.29,0-1.48.52-1.48,1.45V19.37c0,.93.19,1.45,1.48,1.45h9.69c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_113"
+        d="M355.66,22.81l-5.77-8.92h-5.35v8.92h-2.18V-.44h12.17c2.42,0,3.54.55,3.54,3.42v7.5c0,2.86-1.12,3.41-3.54,3.41h-2.32L358,22.81ZM355.91,3c0-.93-.19-1.45-1.48-1.45h-9.89V11.9h9.89c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path class="cls-3 civINDui_114" d="M309.21,158.1L269.58,118.48"></path>
+      <path class="cls-3 civINDui_115" d="M360.16,107.15L388.46,78.85"></path>
+      <path class="cls-3 civINDui_116" d="M309.21,158.1L348.84,118.48"></path>
+      <path class="cls-3 civINDui_117" d="M258.26,107.15L229.96,78.85"></path>
+      <path class="cls-3 civINDui_118" d="M309.21,230.16L309.21,270.18"></path>
+      <path class="cls-3 civINDui_119" d="M309.21,158.1L309.21,214.14"></path>
+      <path
+        class="cls-2 civINDui_120"
+        d="M5.43,22.81-.34,13.89H-5.68v8.92H-7.87V-.44H4.3C6.72-.44,7.84.11,7.84,3v7.5c0,2.86-1.12,3.41-3.54,3.41H2l5.77,8.92ZM5.68,3c0-.93-.19-1.45-1.48-1.45H-5.68V11.9H4.2c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_121"
+        d="M15.26,22.81c-2.42,0-3.54-.54-3.54-3.41V3c0-2.87,1.12-3.42,3.54-3.42h9.92c2.41,0,3.54.55,3.54,3.42V19.4c0,2.87-1.13,3.41-3.54,3.41ZM26.56,3c0-.93-.19-1.45-1.48-1.45H15.39c-1.29,0-1.48.52-1.48,1.45V19.37c0,.93.19,1.45,1.48,1.45h9.69c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path
+        class="cls-2 civINDui_122"
+        d="M46.45,22.81l-5.77-8.92H35.34v8.92H33.15V-.44H45.32c2.42,0,3.54.55,3.54,3.42v7.5c0,2.86-1.12,3.41-3.54,3.41H43l5.76,8.92ZM46.7,3c0-.93-.19-1.45-1.48-1.45H35.34V11.9h9.88c1.32,0,1.48-.52,1.48-1.45Z"
+      ></path>
+      <path class="cls-3 civINDui_123" d="M0,158.1L-39.63,118.48"></path>
+      <path class="cls-3 civINDui_124" d="M50.95,107.15L79.25,78.85"></path>
+      <path class="cls-3 civINDui_125" d="M0,158.1L39.63,118.48"></path>
+      <path class="cls-3 civINDui_126" d="M0,230.16L0,270.18"></path>
+      <path class="cls-3 civINDui_127" d="M0,158.1L0,214.14"></path>
+    </pattern>
+  </defs>
+  <path
+    id="error"
+    class="cls-4 civINDui_128"
+    width="2560"
+    height="1388"
+    d="M0 0 L2560 0 L2560 1388 L0 1388 Z"
+  ></path>
+  <style data-made-with="vivus-instant">
+    .civINDui_0 {
+      stroke-dasharray: 3595 3597;
+      stroke-dashoffset: 3596;
+      animation: civINDui_draw_0 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_1 {
+      stroke-dasharray: 121 123;
+      stroke-dashoffset: 122;
+      animation: civINDui_draw_1 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_2 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_2 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_3 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_3 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_4 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_4 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_5 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_5 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_6 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_6 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_7 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_7 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_8 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_8 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_9 {
+      stroke-dasharray: 121 123;
+      stroke-dashoffset: 122;
+      animation: civINDui_draw_9 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_10 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_10 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_11 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_11 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_12 {
+      stroke-dasharray: 138 140;
+      stroke-dashoffset: 139;
+      animation: civINDui_draw_12 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_13 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_13 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_14 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_14 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_15 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_15 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_16 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_16 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_17 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_17 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_18 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_18 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_19 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_19 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_20 {
+      stroke-dasharray: 121 123;
+      stroke-dashoffset: 122;
+      animation: civINDui_draw_20 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_21 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_21 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_22 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_22 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_23 {
+      stroke-dasharray: 138 140;
+      stroke-dashoffset: 139;
+      animation: civINDui_draw_23 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_24 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_24 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_25 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_25 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_26 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_26 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_27 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_27 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_28 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_28 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_29 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_29 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_30 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_30 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_31 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_31 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_32 {
+      stroke-dasharray: 138 140;
+      stroke-dashoffset: 139;
+      animation: civINDui_draw_32 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_33 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_33 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_34 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_34 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_35 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_35 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_36 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_36 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_37 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_37 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_38 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_38 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_39 {
+      stroke-dasharray: 121 123;
+      stroke-dashoffset: 122;
+      animation: civINDui_draw_39 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_40 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_40 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_41 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_41 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_42 {
+      stroke-dasharray: 138 140;
+      stroke-dashoffset: 139;
+      animation: civINDui_draw_42 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_43 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_43 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_44 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_44 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_45 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_45 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_46 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_46 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_47 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_47 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_48 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_48 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_49 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_49 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_50 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_50 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_51 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_51 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_52 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_52 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_53 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_53 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_54 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_54 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_55 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_55 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_56 {
+      stroke-dasharray: 121 123;
+      stroke-dashoffset: 122;
+      animation: civINDui_draw_56 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_57 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_57 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_58 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_58 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_59 {
+      stroke-dasharray: 138 140;
+      stroke-dashoffset: 139;
+      animation: civINDui_draw_59 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_60 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_60 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_61 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_61 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_62 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_62 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_63 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_63 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_64 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_64 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_65 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_65 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_66 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_66 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_67 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_67 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_68 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_68 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_69 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_69 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_70 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_70 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_71 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_71 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_72 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_72 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_73 {
+      stroke-dasharray: 121 123;
+      stroke-dashoffset: 122;
+      animation: civINDui_draw_73 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_74 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_74 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_75 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_75 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_76 {
+      stroke-dasharray: 138 140;
+      stroke-dashoffset: 139;
+      animation: civINDui_draw_76 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_77 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_77 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_78 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_78 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_79 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_79 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_80 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_80 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_81 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_81 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_82 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_82 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_83 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_83 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_84 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_84 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_85 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_85 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_86 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_86 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_87 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_87 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_88 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_88 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_89 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_89 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_90 {
+      stroke-dasharray: 121 123;
+      stroke-dashoffset: 122;
+      animation: civINDui_draw_90 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_91 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_91 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_92 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_92 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_93 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_93 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_94 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_94 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_95 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_95 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_96 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_96 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_97 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_97 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_98 {
+      stroke-dasharray: 121 123;
+      stroke-dashoffset: 122;
+      animation: civINDui_draw_98 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_99 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_99 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_100 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_100 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_101 {
+      stroke-dasharray: 138 140;
+      stroke-dashoffset: 139;
+      animation: civINDui_draw_101 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_102 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_102 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_103 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_103 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_104 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_104 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_105 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_105 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_106 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_106 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_107 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_107 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_108 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_108 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_109 {
+      stroke-dasharray: 121 123;
+      stroke-dashoffset: 122;
+      animation: civINDui_draw_109 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_110 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_110 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_111 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_111 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_112 {
+      stroke-dasharray: 138 140;
+      stroke-dashoffset: 139;
+      animation: civINDui_draw_112 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_113 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_113 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_114 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_114 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_115 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_115 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_116 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_116 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_117 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_117 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_118 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_118 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_119 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_119 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_120 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_120 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_121 {
+      stroke-dasharray: 138 140;
+      stroke-dashoffset: 139;
+      animation: civINDui_draw_121 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_122 {
+      stroke-dasharray: 140 142;
+      stroke-dashoffset: 141;
+      animation: civINDui_draw_122 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_123 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_123 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_124 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_124 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_125 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_125 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_126 {
+      stroke-dasharray: 41 43;
+      stroke-dashoffset: 42;
+      animation: civINDui_draw_126 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_127 {
+      stroke-dasharray: 57 59;
+      stroke-dashoffset: 58;
+      animation: civINDui_draw_127 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    .civINDui_128 {
+      stroke-dasharray: 7896 7898;
+      stroke-dashoffset: 7897;
+      animation: civINDui_draw_128 2300ms ease 0ms infinite,
+        civINDui_fade 2300ms linear 0ms infinite;
+    }
+    @keyframes civINDui_draw {
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_fade {
+      0% {
+        stroke-opacity: 1;
+      }
+      82.6086956521739% {
+        stroke-opacity: 1;
+      }
+      100% {
+        stroke-opacity: 0;
+      }
+    }
+    @keyframes civINDui_draw_0 {
+      34.78260869565217% {
+        stroke-dashoffset: 3596;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_1 {
+      34.78260869565217% {
+        stroke-dashoffset: 122;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_2 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_3 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_4 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_5 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_6 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_7 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_8 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_9 {
+      34.78260869565217% {
+        stroke-dashoffset: 122;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_10 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_11 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_12 {
+      34.78260869565217% {
+        stroke-dashoffset: 139;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_13 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_14 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_15 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_16 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_17 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_18 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_19 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_20 {
+      34.78260869565217% {
+        stroke-dashoffset: 122;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_21 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_22 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_23 {
+      34.78260869565217% {
+        stroke-dashoffset: 139;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_24 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_25 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_26 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_27 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_28 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_29 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_30 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_31 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_32 {
+      34.78260869565217% {
+        stroke-dashoffset: 139;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_33 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_34 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_35 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_36 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_37 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_38 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_39 {
+      34.78260869565217% {
+        stroke-dashoffset: 122;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_40 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_41 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_42 {
+      34.78260869565217% {
+        stroke-dashoffset: 139;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_43 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_44 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_45 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_46 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_47 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_48 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_49 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_50 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_51 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_52 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_53 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_54 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_55 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_56 {
+      34.78260869565217% {
+        stroke-dashoffset: 122;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_57 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_58 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_59 {
+      34.78260869565217% {
+        stroke-dashoffset: 139;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_60 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_61 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_62 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_63 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_64 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_65 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_66 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_67 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_68 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_69 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_70 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_71 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_72 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_73 {
+      34.78260869565217% {
+        stroke-dashoffset: 122;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_74 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_75 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_76 {
+      34.78260869565217% {
+        stroke-dashoffset: 139;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_77 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_78 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_79 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_80 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_81 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_82 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_83 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_84 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_85 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_86 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_87 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_88 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_89 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_90 {
+      34.78260869565217% {
+        stroke-dashoffset: 122;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_91 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_92 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_93 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_94 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_95 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_96 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_97 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_98 {
+      34.78260869565217% {
+        stroke-dashoffset: 122;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_99 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_100 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_101 {
+      34.78260869565217% {
+        stroke-dashoffset: 139;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_102 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_103 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_104 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_105 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_106 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_107 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_108 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_109 {
+      34.78260869565217% {
+        stroke-dashoffset: 122;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_110 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_111 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_112 {
+      34.78260869565217% {
+        stroke-dashoffset: 139;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_113 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_114 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_115 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_116 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_117 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_118 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_119 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_120 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_121 {
+      34.78260869565217% {
+        stroke-dashoffset: 139;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_122 {
+      34.78260869565217% {
+        stroke-dashoffset: 141;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_123 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_124 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_125 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_126 {
+      34.78260869565217% {
+        stroke-dashoffset: 42;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_127 {
+      34.78260869565217% {
+        stroke-dashoffset: 58;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes civINDui_draw_128 {
+      34.78260869565217% {
+        stroke-dashoffset: 7897;
+      }
+      78.26086956521739% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+</svg>

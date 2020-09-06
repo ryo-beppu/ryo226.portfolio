@@ -1,31 +1,38 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Vivus, { VivusOptions } from "vivus";
 
 interface propsTypes {
   id: string;
   option: VivusOptions;
   className?: string;
-  // eslint-disable-next-line @typescript-eslint/ban-types
-  style?: Object;
   callback?: () => void;
   onAnimationEnd?: () => void;
+  Loop?: {
+    startDelay: number;
+    endPause: number;
+    fadeDuration: number;
+  };
 }
 
-function ReactVivus(props: propsTypes) {
+const ReactVivus: React.FC<propsTypes> = (props) => {
+  const { id, option, className, callback, onAnimationEnd, Loop } = props;
+  const [vivus, setvivus] = useState<Vivus>();
+
+  // const isLoop: React.CSSProperties = () => {
+  //   const style = {
+  //     // Add a missing property
+  //     [`${id}` as any]: `{animation: fade ${Loop?.fadeDuration} linear 0ms infinite}`,
+  //   };
+  //   if (typeof Loop !== "undefined") {
+  //     return style;
+  //   }
+  // };
+
   useEffect(() => {
-    const { id, option, callback } = props;
-    const vivus = new Vivus(id, option, callback);
+    setvivus(new Vivus(id, option, callback));
   }, []);
 
-  const { id, style, className, onAnimationEnd } = props;
-  return (
-    <div
-      id={id}
-      className={className}
-      style={style}
-      onAnimationEnd={onAnimationEnd}
-    />
-  );
-}
+  return <div id={id} className={className} onAnimationEnd={onAnimationEnd} />;
+};
 
 export default ReactVivus;

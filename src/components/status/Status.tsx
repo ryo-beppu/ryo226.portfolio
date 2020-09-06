@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import ReactVivus from "react-vivus";
+import Vivus from "vivus";
+// import ReactVivus from "react-vivus";
 import { Grid } from "@material-ui/core";
+import ReactVivus from "../react-vivus";
 import { WeatherProps, WeatherProp } from "../Common/CommonInterface";
 import item from "../../images/Item.svg";
+import center from "../../images/Center.svg";
+import "../../sass/status.scss";
 
 const Status: React.FC = () => {
+  const css = document.styleSheets.item(0)!;
   const weatherApiResult = useSelector<WeatherProps, WeatherProp>(
     (state) => state.payload
   );
@@ -26,6 +31,25 @@ const Status: React.FC = () => {
 
   return (
     <>
+      <Grid container justify="center">
+        <Grid item>
+          <ReactVivus
+            id="center"
+            option={{
+              file: center,
+              type: "delayed",
+              start: "autostart",
+              duration: 360,
+              animTimingFunction: Vivus.EASE,
+            }}
+            callback={() =>
+              css.insertRule(
+                "#center{animation: strokeAnimation ease-in-out 1s;}"
+              )
+            }
+          />
+        </Grid>
+      </Grid>
       <Grid container justify="space-around">
         <Grid item>
           <ReactVivus id="item1" option={{ file: item }} />
