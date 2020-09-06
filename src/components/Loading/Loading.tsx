@@ -1,9 +1,10 @@
-import React, { useEffect, useRef } from "react";
-import { useDispatch } from "react-redux";
-import Vivus from "vivus";
-import { ActionCreators, getWeatherData } from "../../redux/action";
-import OpeningSVG from "../../images/OpeningAnim.svg";
 import "../../sass/opening.scss";
+import React, { useEffect, useRef } from "react";
+import { Typography } from "@material-ui/core";
+import Vivus from "vivus";
+import { useDispatch } from "react-redux";
+import OpeningSVG from "../../images/OpeningAnim.svg";
+import { ActionCreators, getWeatherData } from "../../redux/action";
 
 const Opening: React.FC = () => {
   const svg = useRef("loadAnim");
@@ -28,6 +29,7 @@ const Opening: React.FC = () => {
 
   return (
     <div id="load">
+      <Typography>Complete</Typography>
       <div
         id="loadAnim"
         onAnimationEnd={() => dispatch(ActionCreators.changeState("Weather"))}

@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
-import Vivus from "vivus";
-import { Grid } from "@material-ui/core";
-import ReactVivus from "../react-vivus";
-import { WeatherProps, WeatherProp } from "../Common/Interface";
-import item from "../../images/Item.svg";
-import center from "../../images/Center.svg";
 import "../../sass/status.scss";
+import React, { useEffect, useState } from "react";
+import { Grid } from "@material-ui/core";
+import Vivus from "vivus";
+import { useSelector } from "react-redux";
+import { WeatherProp, WeatherProps } from "../Common/Interface";
+import ReactVivus from "../react-vivus";
+import center from "../../images/Center.svg";
+import item from "../../images/Item.svg";
 
 const Status: React.FC = () => {
   const css = document.styleSheets.item(0)!;
