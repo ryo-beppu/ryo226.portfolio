@@ -2,10 +2,10 @@ FROM node:alpine
 
 WORKDIR /ryo226.portfolio
 
-COPY ["package.json", "yarn.lock", "./"]
+# COPY ["package.json", "yarn.lock", "./"]
 
-RUN yarn
+# RUN yarn
 
-COPY . .
+# COPY . .
 
-ENTRYPOINT ["yarn", "start"]
+# ENTRYPOINT ["yarn", "start"]

@@ -19,7 +19,6 @@ const ChangeWeather: React.FC = () => {
   );
   const [weather, setWeather] = useState<string | undefined>();
   useEffect(() => {
-    console.log(weatherApiResult);
     if (Object.keys(weatherApiResult).length > 0) {
       setWeather(weatherApiResult.weather[0].main);
     }
