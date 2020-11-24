@@ -1,0 +1,35 @@
+<svg width="2560" height="59" viewBox="0 0 2560 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .Timeline {
+        fill: none;
+        stroke: #09fbd3;
+        stroke-miterlimit: 10;
+        stroke-dasharray: 2603 2605;
+        stroke-dashoffset: 2604;
+        animation: draw 2s ease 0s forwards;
+      }
+
+      @keyframes draw {
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      @keyframes fadeOut {
+        0% {
+          stroke-opacity: 1;
+        }
+
+        95% {
+          stroke-opacity: 1;
+        }
+
+        100% {
+          stroke-opacity: 0;
+        }
+      }
+    </style>
+  </defs>
+  <path class="Timeline" d="M1 1L16 58H2560" />
+</svg>

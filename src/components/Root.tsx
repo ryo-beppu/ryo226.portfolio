@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { WeatherProps } from "./Common/Interface";
 import Loading from "./Loading/Loading";
+import Timeline from "./Timeline/Timeline";
 import Weather from "./Weather/Weather";
 import Status from "./status/Status";
 

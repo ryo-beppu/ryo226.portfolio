@@ -1,0 +1,36 @@
+<svg width="auto" height="auto" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M1 150L34 299H75" stroke="#09FBD3" stroke-dasharray="15 15" class="timelineItemUnder"></path>
+  <style data-made-with="vivus-instant">
+    .timelineItemUnder {
+      stroke-dasharray: 194 196;
+      stroke-dashoffset: 195;
+      animation: timelineItemUnderDraw 2000ms ease 0ms forwards;
+      margin: 0px;
+    }
+
+    @keyframes timelineItemUnderDraw {
+      99% {
+        stroke-dasharray: 194 196;
+      }
+
+      100% {
+        stroke-dasharray: 10;
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes timelineItemUnderFadeIn {
+      0% {
+        stroke-opacity: 1;
+      }
+
+      94.44444444444444% {
+        stroke-opacity: 1;
+      }
+
+      100% {
+        stroke-opacity: 0;
+      }
+    }
+  </style>
+</svg>

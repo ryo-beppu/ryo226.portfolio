@@ -13,7 +13,7 @@ import NotFound from "../NotFound";
 
 const ChangeWeather: React.FC = () => {
   const dispatch = useDispatch();
-  const css = document.styleSheets.item(0)!;
+  const css = document.styleSheets.item(1)!;
   const weatherApiResult = useSelector<WeatherProps, WeatherProp>(
     (state) => state.payload
   );

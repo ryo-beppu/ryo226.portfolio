@@ -1,59 +1,105 @@
-import "../../sass/loading.scss";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Typography } from "@material-ui/core";
-import Vivus from "vivus";
 import { useDispatch } from "react-redux";
 import { ReactSVG } from "react-svg";
-import { Transition } from "react-transition-group";
+import styled, { keyframes, css } from "styled-components";
 import LoadingSVG from "../../images/LoadingAnim.svg";
-import { ActionCreators, getWeatherData } from "../../redux/action";
+import { getWeatherData } from "../../redux/action";
 
-// const LOADING_STYLE  = {
+const fadeIn = keyframes`
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+`;
 
-// }
+const fadeOutText = keyframes`
+  0% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+`;
+
+const blink = keyframes`
+  40% {
+    opacity: .85;
+  }
+  42% {
+    opacity: .4;
+  }
+  43% {
+    opacity: .85;
+  }
+  45% {
+    opacity: .4;
+  }
+  46% {
+    opacity: .85;
+  }
+`;
+
+const LoadContentWrapper = styled.div`
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+`;
+
+const StyledReactSVG = styled(ReactSVG)`
+  position: absolute;
+  width: 2560px;
+  z-index: 1;
+  filter: drop-shadow(0 0 5px #09fbd3) drop-shadow(0 0 10px #09fbd3);
+`;
+
+const StyledTypography = styled.p<{ isAnimateEnd: boolean }>`
+  position: absolute;
+  font-size: 70px;
+  margin: 0;
+  z-index: 2;
+  opacity: 0;
+  font-style: italic;
+  font-family: "Rajdhani";
+  animation: ${fadeIn} 1s linear 3s forwards, ${blink} 2s 3s forwards,
+    ${fadeOutText} 3s linear 6s forwards;
+`;
+
+// ${(props) =>
+//   props.isAnimateEnd
+//     ? css`
+//         animation: ${fadeIn} 1s linear 0s forwards, ${blink} 2s 1s forwards;
+//       `
+//     : ``}
 
 const Opening: React.FC = () => {
   const dispatch = useDispatch();
-  const css = document.styleSheets.item(0);
-  useEffect(() => {
-    dispatch(getWeatherData());
-  }, [dispatch]);
-
-  const el = document.querySelector("#loadingNow");
-  const endAnim = () => {
-    if (!el) return;
-    el.addEventListener("animationend", () => {
-      // transition終了時の処理
-      alert("animationend");
-    });
+  const isAnimateEnd = useRef<boolean>(false);
+  const handleOnAnimationEnd = () => {
+    isAnimateEnd.current = true;
   };
 
-  // useEffect(() => {
-  //   const vivusOpening = new Vivus(
-  //     svg.current,
-  //     {
-  //       file: OpeningSVG,
-  //       type: "scenario-sync",
-  //     },
-  //     () => {
-  //       if (!css) return;
-  //       css.insertRule(".cls-1{animation: strokeAnimation ease-in-out 1s;}", 0);
-  //     }
-  //   );
-  // }, [svg.current]);
+  useEffect(() => {
+    dispatch(getWeatherData());
+  }, []);
 
   return (
-    <div id="load">
-      <Typography id="completeText">Complete</Typography>
-      <ReactSVG id="loadAnim" src={LoadingSVG} />
-      <Transition in={LoadingSVG} />
-      {/* <img
-        id="loadAnim"
+    <LoadContentWrapper>
+      <StyledReactSVG
         src={LoadingSVG}
-        alt="loadAnim"
-        // onAnimationEnd={() => dispatch(ActionCreators.changeState("Weather"))}
-      /> */}
-    </div>
+        onAnimationEnd={() => handleOnAnimationEnd()}
+      />
+      <StyledTypography isAnimateEnd={isAnimateEnd.current}>
+        Complete
+      </StyledTypography>
+    </LoadContentWrapper>
   );
 };
 
