@@ -11,6 +11,10 @@
 * Redux
 * TypeScript
 
+#### 使用ライブラリ
+* material-ui
+* styled-components
+
 ### バックエンド技術
 
 * Docker

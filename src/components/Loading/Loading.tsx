@@ -1,8 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
-import { Typography } from "@material-ui/core";
+import React, { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { ReactSVG } from "react-svg";
-import styled, { keyframes, css } from "styled-components";
+import styled, { keyframes } from "styled-components";
 import LoadingSVG from "../../images/LoadingAnim.svg";
 import { getWeatherData } from "../../redux/action";
 
