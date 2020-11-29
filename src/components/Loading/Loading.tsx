@@ -71,13 +71,6 @@ const StyledTypography = styled.p<{ isAnimateEnd: boolean }>`
     ${fadeOutText} 3s linear 6s forwards;
 `;
 
-// ${(props) =>
-//   props.isAnimateEnd
-//     ? css`
-//         animation: ${fadeIn} 1s linear 0s forwards, ${blink} 2s 1s forwards;
-//       `
-//     : ``}
-
 const Opening: React.FC = () => {
   const dispatch = useDispatch();
   const isAnimateEnd = useRef<boolean>(false);
@@ -96,7 +89,7 @@ const Opening: React.FC = () => {
         onAnimationEnd={() => handleOnAnimationEnd()}
       />
       <StyledTypography isAnimateEnd={isAnimateEnd.current}>
-        Complete
+        LoadingComplete
       </StyledTypography>
     </LoadContentWrapper>
   );
