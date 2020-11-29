@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { ReactSVG } from "react-svg";
 import styled, { keyframes } from "styled-components";
 import LoadingSVG from "../../images/LoadingAnim.svg";
-import { getWeatherData } from "../../redux/action";
+import { getWeatherData, ActionCreators } from "../../redux/action";
 
 const fadeIn = keyframes`
   0%{
@@ -88,7 +88,14 @@ const Opening: React.FC = () => {
         src={LoadingSVG}
         onAnimationEnd={() => handleOnAnimationEnd()}
       />
-      <StyledTypography isAnimateEnd={isAnimateEnd.current}>
+      <StyledTypography
+        isAnimateEnd={isAnimateEnd.current}
+        onAnimationEnd={(animationName) =>
+          animationName.animationName === "euuCaJ"
+            ? dispatch(ActionCreators.changeState("Weather"))
+            : ""
+        }
+      >
         LoadingComplete
       </StyledTypography>
     </LoadContentWrapper>
