@@ -1,0 +1,88 @@
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path width="10" height="10" transform="rotate(90 10 32)" fill="#C4C4C4"
+        d="M 11,32 L 19,32 A 1,1,0,0,1,20,33 L 20,41 A 1,1,0,0,1,19,42 L 11,42 A 1,1,0,0,1,10,41 L 10,33 A 1,1,0,0,1,11,32"
+        class="SCekgTBL_0"></path>
+    <path d="M5 30L5 0" stroke="#C4C4C4" class="SCekgTBL_1"></path>
+    <path d="M12 37L42 37" stroke="#C4C4C4" class="SCekgTBL_2"></path>
+    <style data-made-with="vivus-instant">
+        .SCekgTBL_0 {
+            stroke-dasharray: 39 41;
+            stroke-dashoffset: 40;
+            animation: SCekgTBL_draw_0 5700ms ease 0ms infinite, SCekgTBL_fade 5700ms linear 0ms infinite;
+        }
+
+        .SCekgTBL_1 {
+            stroke-dasharray: 30 32;
+            stroke-dashoffset: 31;
+            animation: SCekgTBL_draw_1 5700ms ease 0ms infinite, SCekgTBL_fade 5700ms linear 0ms infinite;
+        }
+
+        .SCekgTBL_2 {
+            stroke-dasharray: 30 32;
+            stroke-dashoffset: 31;
+            animation: SCekgTBL_draw_2 5700ms ease 0ms infinite, SCekgTBL_fade 5700ms linear 0ms infinite;
+        }
+
+        @keyframes SCekgTBL_draw {
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes SCekgTBL_fade {
+            0% {
+                stroke-opacity: 1;
+            }
+
+            92.98245614035088% {
+                stroke-opacity: 1;
+            }
+
+            100% {
+                stroke-opacity: 0;
+            }
+        }
+
+        @keyframes SCekgTBL_draw_0 {
+            14.035087719298245% {
+                stroke-dashoffset: 40
+            }
+
+            40.35087719298245% {
+                stroke-dashoffset: 0;
+            }
+
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes SCekgTBL_draw_1 {
+            14.035087719298245% {
+                stroke-dashoffset: 31
+            }
+
+            40.35087719298245% {
+                stroke-dashoffset: 0;
+            }
+
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes SCekgTBL_draw_2 {
+            14.035087719298245% {
+                stroke-dashoffset: 31
+            }
+
+            40.35087719298245% {
+                stroke-dashoffset: 0;
+            }
+
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+</svg>

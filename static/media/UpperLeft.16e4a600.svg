@@ -1,0 +1,88 @@
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" >
+    <path width="10" height="10" transform="rotate(180 10 10)" fill="#C4C4C4"
+        d="M 11,10 L 19,10 A 1,1,0,0,1,20,11 L 20,19 A 1,1,0,0,1,19,20 L 11,20 A 1,1,0,0,1,10,19 L 10,11 A 1,1,0,0,1,11,10"
+        class="yqOXYvFr_0"></path>
+    <path d="M12 5L42 5" stroke="#C4C4C4" class="yqOXYvFr_1"></path>
+    <path d="M5 12L5 42" stroke="#C4C4C4" class="yqOXYvFr_2"></path>
+    <style data-made-with="vivus-instant">
+        .yqOXYvFr_0 {
+            stroke-dasharray: 39 41;
+            stroke-dashoffset: 40;
+            animation: yqOXYvFr_draw_0 5700ms ease 0ms infinite, yqOXYvFr_fade 5700ms linear 0ms infinite;
+        }
+
+        .yqOXYvFr_1 {
+            stroke-dasharray: 30 32;
+            stroke-dashoffset: 31;
+            animation: yqOXYvFr_draw_1 5700ms ease 0ms infinite, yqOXYvFr_fade 5700ms linear 0ms infinite;
+        }
+
+        .yqOXYvFr_2 {
+            stroke-dasharray: 30 32;
+            stroke-dashoffset: 31;
+            animation: yqOXYvFr_draw_2 5700ms ease 0ms infinite, yqOXYvFr_fade 5700ms linear 0ms infinite;
+        }
+
+        @keyframes yqOXYvFr_draw {
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes yqOXYvFr_fade {
+            0% {
+                stroke-opacity: 1;
+            }
+
+            92.98245614035088% {
+                stroke-opacity: 1;
+            }
+
+            100% {
+                stroke-opacity: 0;
+            }
+        }
+
+        @keyframes yqOXYvFr_draw_0 {
+            14.035087719298245% {
+                stroke-dashoffset: 40
+            }
+
+            40.35087719298245% {
+                stroke-dashoffset: 0;
+            }
+
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes yqOXYvFr_draw_1 {
+            14.035087719298245% {
+                stroke-dashoffset: 31
+            }
+
+            40.35087719298245% {
+                stroke-dashoffset: 0;
+            }
+
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes yqOXYvFr_draw_2 {
+            14.035087719298245% {
+                stroke-dashoffset: 31
+            }
+
+            40.35087719298245% {
+                stroke-dashoffset: 0;
+            }
+
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+</svg>
