@@ -1,0 +1,30 @@
+<svg width="2473" height="59" viewBox="0 0 2473 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1 1L16 58H2473" stroke="#09FBD3" class="sTMGQgwP_0"></path>
+    <style data-made-with="vivus-instant">
+        .sTMGQgwP_0 {
+            stroke-dasharray: 2516 2518;
+            stroke-dashoffset: 2517;
+            animation: sTMGQgwP_draw 3000ms ease 0ms forwards;
+        }
+
+        @keyframes sTMGQgwP_draw {
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes sTMGQgwP_fade {
+            0% {
+                stroke-opacity: 1;
+            }
+
+            94.44444444444444% {
+                stroke-opacity: 1;
+            }
+
+            100% {
+                stroke-opacity: 0;
+            }
+        }
+    </style>
+</svg>
