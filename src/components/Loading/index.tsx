@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { ReactSVG } from "react-svg";
 import styled, { keyframes } from "styled-components";
@@ -45,7 +45,6 @@ const blink = keyframes`
 `;
 
 const LoadContentWrapper = styled.div`
-  width: 100%;
   height: 100vh;
   align-items: center;
   justify-content: center;
@@ -59,7 +58,7 @@ const StyledReactSVG = styled(ReactSVG)`
   filter: drop-shadow(0 0 5px #09fbd3) drop-shadow(0 0 10px #09fbd3);
 `;
 
-const StyledTypography = styled.p<{ isAnimateEnd: boolean }>`
+const StyledTypography = styled.p`
   position: absolute;
   font-size: 70px;
   margin: 0;
@@ -73,10 +72,6 @@ const StyledTypography = styled.p<{ isAnimateEnd: boolean }>`
 
 const Opening: React.FC = () => {
   const dispatch = useDispatch();
-  const isAnimateEnd = useRef<boolean>(false);
-  const handleOnAnimationEnd = () => {
-    isAnimateEnd.current = true;
-  };
 
   useEffect(() => {
     dispatch(getWeatherData());
@@ -84,15 +79,11 @@ const Opening: React.FC = () => {
 
   return (
     <LoadContentWrapper>
-      <StyledReactSVG
-        src={LoadingSVG}
-        onAnimationEnd={() => handleOnAnimationEnd()}
-      />
+      <StyledReactSVG src={LoadingSVG} />
       <StyledTypography
-        isAnimateEnd={isAnimateEnd.current}
         onAnimationEnd={(animationName) =>
           animationName.animationName === "euuCaJ"
-            ? dispatch(ActionCreators.changeState("Weather"))
+            ? dispatch(ActionCreators.changeState("Timeline"))
             : ""
         }
       >

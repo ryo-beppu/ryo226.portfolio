@@ -1,6 +1,6 @@
 import axios from "axios";
 import { Action, Dispatch, ActionCreatorsMapObject } from "redux";
-import { WeatherProp } from "../components/Common/Interface";
+import { WeatherProp } from "../components/Types";
 
 export enum ActionTypes {
   GET_WEATHER_REQUEST = "GET_WEATHER_REQUEST",

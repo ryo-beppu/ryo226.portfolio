@@ -1,12 +1,8 @@
 import "../../sass/status.scss";
 import React, { useEffect, useState } from "react";
 import { Grid } from "@material-ui/core";
-import Vivus from "vivus";
 import { useSelector } from "react-redux";
-import { WeatherProp, WeatherProps } from "../Common/Interface";
-import ReactVivus from "../react-vivus";
-import center from "../../images/Center.svg";
-import item from "../../images/Item.svg";
+import { WeatherProp, WeatherProps } from "../Types";
 
 const Status: React.FC = () => {
   const css = document.styleSheets.item(0)!;
@@ -31,37 +27,18 @@ const Status: React.FC = () => {
   return (
     <>
       <Grid container justify="center">
-        <Grid item>
-          <ReactVivus
-            id="center"
-            option={{
-              file: center,
-              type: "delayed",
-              start: "autostart",
-              duration: 360,
-              animTimingFunction: Vivus.EASE,
-            }}
-            callback={() =>
-              css.insertRule(
-                "#center{animation: strokeAnimation ease-in-out 1s;}"
-              )
-            }
-          />
-        </Grid>
+        <Grid item />
       </Grid>
       <Grid container justify="space-around">
         <Grid item>
-          <ReactVivus id="item1" option={{ file: item }} />
           <p>CPG : OK</p>
           <p>NEURAL LINGUAGE : OK</p>
           <p>ION CONCENTRATION : OK</p>
           <p>META MOTOR AREA PARAMETERS : OK</p>
           <p>REACTOR : OK</p>
           <p>POWER FLOW : OK</p>
-          <ReactVivus id="item2" option={{ file: item }} />
         </Grid>
         <Grid item>
-          <ReactVivus id="item3" option={{ file: item }} />
           <p>{`VISIBLITY : ${weatherApiResult.visibility}`}</p>
           <p>{`WEATHER : ${weatherApiResult.weather[0].main}`}</p>
           <p>{`AMBIENT TEMPERATURE : ${weatherApiResult.main.temp}`}</p>
@@ -70,7 +47,6 @@ const Status: React.FC = () => {
           <p>{`CLOUDS ALL : ${weatherApiResult.clouds.all}`}</p>
           <p>{`SUNRISE : ${sunriseData}`}</p>
           <p>{`SUNSET : ${sunsetData}`}</p>
-          <ReactVivus id="item4" option={{ file: item }} />
         </Grid>
       </Grid>
     </>

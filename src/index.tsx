@@ -9,6 +9,7 @@ import reducer from "./redux/reducer";
 import Root from "./components/Root";
 import "./sass/index.scss";
 import NotFound from "./components/NotFound";
+import Background from "./components/Background";
 
 interface ExtendedWindow extends Window {
   __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
@@ -36,6 +37,7 @@ const store = createStore(
 function App() {
   return (
     <Router>
+      <Background />
       <Switch>
         <Route exact path="/ryo226.portfolio" component={Root} />
         <Route component={NotFound} />

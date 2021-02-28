@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Vivus from "vivus";
 import ReactVivus from "react-vivus";
-import { WeatherProps, WeatherProp } from "../Common/Interface";
+import { WeatherProps, WeatherProp } from "../Types";
 import { ActionCreators } from "../../redux/action";
-import cloudy from "../../images/Cloudy.svg";
-import rain from "../../images/Rain.svg";
-import sun from "../../images/Sun.svg";
-import thunderstorm from "../../images/Thunder.svg";
+import cloudy from "../../images/Weather/Cloudy.svg";
+import rain from "../../images/Weather/Rain.svg";
+import sun from "../../images/Weather/Sun.svg";
+import thunderstorm from "../../images/Weather/Thunder.svg";
 import "../../sass/weather.scss";
 import NotFound from "../NotFound";
 
