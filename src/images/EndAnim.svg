@@ -1,0 +1,86 @@
+<svg width="2560" height="1440" viewBox="0 0 2560 1440" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+    <path d="M933 720.5L212 -0.5" stroke="#09FBD3" class="fURtlpIx_0"></path>
+    <path d="M1627 720.5L2347 1440.5" stroke="#09FBD3" class="fURtlpIx_1"></path>
+    <path d="M1627 720.5L2348 -0.5" stroke="#09FBD3" class="fURtlpIx_2"></path>
+    <path d="M933 720.5L213 1440.5" stroke="#09FBD3" class="fURtlpIx_3"></path>
+    <path d="M1280 1067.5L1653 1440.5" stroke="#09FBD3" class="fURtlpIx_4"></path>
+    <path d="M1654 -0.5L1280 373.5" stroke="#09FBD3" class="fURtlpIx_5"></path>
+    <path d="M1280 373.5L906 -0.5" stroke="#09FBD3" class="fURtlpIx_6"></path>
+    <path d="M1280 1067.5H0" stroke="#09FBD3" class="fURtlpIx_7"></path>
+    <path d="M1280 373.5H2560" stroke="#09FBD3" class="fURtlpIx_8"></path>
+    <style data-made-with="vivus-instant">
+        .fURtlpIx_0 {
+            stroke-dasharray: 1020 1022;
+            stroke-dashoffset: 1021;
+            animation: fURtlpIx_draw 2000ms ease 0ms forwards;
+        }
+
+        .fURtlpIx_1 {
+            stroke-dasharray: 1019 1021;
+            stroke-dashoffset: 1020;
+            animation: fURtlpIx_draw 2000ms ease 125ms forwards;
+        }
+
+        .fURtlpIx_2 {
+            stroke-dasharray: 1020 1022;
+            stroke-dashoffset: 1021;
+            animation: fURtlpIx_draw 2000ms ease 250ms forwards;
+        }
+
+        .fURtlpIx_3 {
+            stroke-dasharray: 1019 1021;
+            stroke-dashoffset: 1020;
+            animation: fURtlpIx_draw 2000ms ease 375ms forwards;
+        }
+
+        .fURtlpIx_4 {
+            stroke-dasharray: 528 530;
+            stroke-dashoffset: 529;
+            animation: fURtlpIx_draw 2000ms ease 500ms forwards;
+        }
+
+        .fURtlpIx_5 {
+            stroke-dasharray: 529 531;
+            stroke-dashoffset: 530;
+            animation: fURtlpIx_draw 2000ms ease 625ms forwards;
+        }
+
+        .fURtlpIx_6 {
+            stroke-dasharray: 529 531;
+            stroke-dashoffset: 530;
+            animation: fURtlpIx_draw 2000ms ease 750ms forwards;
+        }
+
+        .fURtlpIx_7 {
+            stroke-dasharray: 1280 1282;
+            stroke-dashoffset: 1281;
+            animation: fURtlpIx_draw 2000ms ease 875ms forwards;
+        }
+
+        .fURtlpIx_8 {
+            stroke-dasharray: 1280 1282;
+            stroke-dashoffset: 1281;
+            animation: fURtlpIx_draw 2000ms ease 1000ms forwards;
+        }
+
+        @keyframes fURtlpIx_draw {
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes fURtlpIx_fade {
+            0% {
+                stroke-opacity: 1;
+            }
+
+            94.44444444444444% {
+                stroke-opacity: 1;
+            }
+
+            100% {
+                stroke-opacity: 0;
+            }
+        }
+    </style>
+</svg>

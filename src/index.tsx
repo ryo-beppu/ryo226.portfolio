@@ -34,7 +34,7 @@ const store = createStore(
   composeEnhancers(applyMiddleware(...middleware))
 );
 
-function App() {
+const App: React.FC = () => {
   return (
     <Router>
       <Background />
@@ -44,7 +44,7 @@ function App() {
       </Switch>
     </Router>
   );
-}
+};
 
 ReactDOM.render(
   <Provider store={store}>

@@ -37,7 +37,7 @@ const slideIn = keyframes`
 `;
 
 const TimelineWrapper = styled.div`
-  width: 100%;
+  width: 100vw;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);

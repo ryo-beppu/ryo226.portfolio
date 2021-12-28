@@ -81,10 +81,9 @@ const Opening: React.FC = () => {
     <LoadContentWrapper>
       <StyledReactSVG src={LoadingSVG} />
       <StyledTypography
-        onAnimationEnd={(animationName) =>
-          animationName.animationName === "euuCaJ"
-            ? dispatch(ActionCreators.changeState("Timeline"))
-            : ""
+        onAnimationEnd={(event) =>
+          event.animationName === "euuCaJ" &&
+          dispatch(ActionCreators.changeState("Timeline"))
         }
       >
         LoadingComplete
