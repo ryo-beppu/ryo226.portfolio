@@ -53,14 +53,15 @@ const LoadContentWrapper = styled.div`
 
 const StyledReactSVG = styled(ReactSVG)`
   position: absolute;
-  width: 2560px;
+  width: 100vw;
+  object-fit: cover;
   z-index: 1;
   filter: drop-shadow(0 0 5px #09fbd3) drop-shadow(0 0 10px #09fbd3);
 `;
 
 const StyledTypography = styled.p`
   position: absolute;
-  font-size: 70px;
+  font-size: 2.7vw;
   margin: 0;
   z-index: 2;
   opacity: 0;
@@ -68,6 +69,7 @@ const StyledTypography = styled.p`
   font-family: "Rajdhani";
   animation: ${fadeIn} 1s linear 3s forwards, ${blink} 2s 3s forwards,
     ${fadeOutText} 3s linear 6s forwards;
+  will-change: ${fadeIn}, ${blink}, ${fadeOutText};
 `;
 
 const Opening: React.FC = () => {

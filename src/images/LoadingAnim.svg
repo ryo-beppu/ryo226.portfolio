@@ -11,36 +11,42 @@
         stroke-dasharray: 1782 1784;
         stroke-dashoffset: 1783;
         animation: draw 3s ease 0s forwards, fadeOut 3s linear 6s forwards;
+        will-change: draw, fadeOut;
       }
 
       .VFMzCKQT_1 {
         stroke-dasharray: 1782 1784;
         stroke-dashoffset: 1783;
         animation: draw 3s ease 0s forwards, fadeOut 3s linear 6s forwards;
+        will-change: draw, fadeOut;
       }
 
       .VFMzCKQT_2 {
         stroke-dasharray: 235 237;
         stroke-dashoffset: 236;
         animation: draw 3s ease 0s forwards, fadeOut 3s linear 6s forwards;
+        will-change: draw, fadeOut;
       }
 
       .VFMzCKQT_3 {
         stroke-dasharray: 235 237;
         stroke-dashoffset: 236;
         animation: draw 3s ease 0s forwards, fadeOut 3s linear 6s forwards;
+        will-change: draw, fadeOut;
       }
 
       .VFMzCKQT_4 {
         stroke-dasharray: 235 237;
         stroke-dashoffset: 236;
         animation: draw 3s ease 0s forwards, fadeOut 3s linear 6s forwards;
+        will-change: draw, fadeOut;
       }
 
       .VFMzCKQT_5 {
         stroke-dasharray: 235 237;
         stroke-dashoffset: 236;
         animation: draw 3s ease 0s forwards, fadeOut 3s linear 6s forwards;
+        will-change: draw, fadeOut;
       }
 
       @keyframes draw {

@@ -37,11 +37,11 @@ const store = createStore(
 const App: React.FC = () => {
   return (
     <Router>
-      <Background />
       <Switch>
         <Route exact path="/ryo226.portfolio" component={Root} />
         <Route component={NotFound} />
       </Switch>
+      <Background />
     </Router>
   );
 };

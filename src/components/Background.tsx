@@ -7,8 +7,9 @@ import UpperRightSVG from "../images/Background/UpperRight.svg";
 import LowerRightSVG from "../images/Background/LowerRight.svg";
 
 const BackgroundWrapper = styled.div`
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 `;
 
 const UpperLeftContent = styled(ReactSVG)`
