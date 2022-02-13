@@ -79,6 +79,8 @@ const StyledTitleTypography = styled.p`
   font-size: 50px;
   font-style: italic;
   font-family: "Rajdhani";
+  color: white;
+  filter: drop-shadow(0 0 1px white) drop-shadow(0 0 10px white);
   animation: ${slideIn} 1.6s forwards;
 `;
 
@@ -86,6 +88,8 @@ const StyledUpperTypography = styled.p`
   font-size: 20px;
   font-style: italic;
   font-family: "Rajdhani";
+  color: white;
+  filter: drop-shadow(0 0 1px white) drop-shadow(0 0 10px white);
   position: absolute;
   bottom: 294px;
   margin: 0px;
@@ -97,6 +101,8 @@ const StyledLowerTypography = styled.p`
   font-size: 20px;
   font-style: italic;
   font-family: "Rajdhani";
+  color: white;
+  filter: drop-shadow(0 0 1px white) drop-shadow(0 0 10px white);
   position: absolute;
   top: 195px;
   margin: 0px;

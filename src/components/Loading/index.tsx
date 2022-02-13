@@ -67,6 +67,8 @@ const StyledTypography = styled.p`
   opacity: 0;
   font-style: italic;
   font-family: "Rajdhani";
+  color: white;
+  filter: drop-shadow(0 0 1px white) drop-shadow(0 0 10px white);
   animation: ${fadeIn} 1s linear 3s forwards, ${blink} 2s 3s forwards,
     ${fadeOutText} 3s linear 6s forwards;
   will-change: ${fadeIn}, ${blink}, ${fadeOutText};
