@@ -38,7 +38,7 @@ const App: React.FC = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/ryo226.portfolio" component={Root} />
+        <Route exact path="/" component={Root} />
         <Route component={NotFound} />
       </Switch>
       <Background />
