@@ -1,7 +1,7 @@
 {
   "name": "ryo226.portfolio",
   "version": "0.1.0",
-  "homepage": "https://ryo-beppu.github.io",
+  "homepage": "https://ryo-beppu.github.io/ryo226.portfolio",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
