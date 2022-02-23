@@ -12,13 +12,8 @@
 * TypeScript
 
 #### 使用ライブラリ
-* material-ui
 * styled-components
 
 ### バックエンド技術
 
 * Docker
-
-### 外部API
-
-* OpenWeatherMap
