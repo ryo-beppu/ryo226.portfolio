@@ -1,9 +1,3 @@
-export interface WeatherProps {
-  isFetching: boolean;
-  payload: WeatherProp;
-  chapter: string;
-}
-
 export interface WeatherProp {
   dt: number;
   main: {
@@ -38,4 +32,10 @@ export interface WeatherProp {
     sunset: number;
   };
   dtTxt: string;
+}
+
+export interface WeatherProps {
+  isFetching: boolean;
+  payload: WeatherProp;
+  chapter: string;
 }
