@@ -12,26 +12,26 @@ const BackgroundWrapper = styled.div`
   z-index: -1;
 `;
 
-const UpperLeftContent = styled(ReactSVG)`
+const UpperLeftContent = styled.div`
   position: absolute;
   height: 42px;
   top: 10px;
   left: 10px;
 `;
 
-const LowerLeftContent = styled(ReactSVG)`
+const LowerLeftContent = styled.div`
   position: absolute;
   height: 42px;
   bottom: 10px;
   left: 10px;
 `;
-const UpperRightContent = styled(ReactSVG)`
+const UpperRightContent = styled.div`
   position: absolute;
   height: 42px;
   top: 10px;
   right: 10px;
 `;
-const LowerRightContent = styled(ReactSVG)`
+const LowerRightContent = styled.div`
   position: absolute;
   height: 42px;
   bottom: 10px;
@@ -41,10 +41,18 @@ const LowerRightContent = styled(ReactSVG)`
 const Background: React.FC = () => {
   return (
     <BackgroundWrapper>
-      <UpperLeftContent src={UpperLeftSVG} />
-      <LowerLeftContent src={LowerLeftSVG} />
-      <UpperRightContent src={UpperRightSVG} />
-      <LowerRightContent src={LowerRightSVG} />
+      <UpperLeftContent>
+        <ReactSVG src={UpperLeftSVG} />
+      </UpperLeftContent>
+      <LowerLeftContent>
+        <ReactSVG src={LowerLeftSVG} />
+      </LowerLeftContent>
+      <UpperRightContent>
+        <ReactSVG src={UpperRightSVG} />
+      </UpperRightContent>
+      <LowerRightContent>
+        <ReactSVG src={LowerRightSVG} />
+      </LowerRightContent>
     </BackgroundWrapper>
   );
 };

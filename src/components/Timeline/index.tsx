@@ -63,7 +63,7 @@ const TimelineLowerItemWrapper = styled.div`
   position: relative;
 `;
 
-const StyledReactSVG = styled(ReactSVG)`
+const StyledReactSVG = styled.div`
   position: absolute;
   top: 0px;
   left: 44px;
@@ -110,12 +110,12 @@ const StyledLowerTypography = styled.p`
   animation: ${slideIn} 0.5s forwards;
 `;
 
-const StyledTimelineUpperItemSVG = styled(ReactSVG)`
+const StyledTimelineUpperItemSVG = styled.div`
   position: absolute;
   bottom: 152px;
   filter: drop-shadow(0 0 5px #09fbd3) drop-shadow(0 0 10px #09fbd3);
 `;
-const StyledTimelineLowerItemSVG = styled(ReactSVG)`
+const StyledTimelineLowerItemSVG = styled.div`
   position: absolute;
   top: 57px;
   filter: drop-shadow(0 0 5px #09fbd3) drop-shadow(0 0 10px #09fbd3);
@@ -174,13 +174,15 @@ const Timeline: React.FC = () => {
       <TimelineItemWrapper>
         {TimelineData.map((work, index) => {
           return (
-            <div key={index.toString()}>
+            <div key={work.image}>
               {index % 2 === 0 ? (
                 <TimelineLowerItemWrapper>
                   <ImageLowerWrapper>
                     <StyledLowerImage src={work.image} />
                   </ImageLowerWrapper>
-                  <StyledTimelineLowerItemSVG src={TimelineLowerItemSVG} />
+                  <StyledTimelineLowerItemSVG>
+                    <ReactSVG src={TimelineLowerItemSVG} />
+                  </StyledTimelineLowerItemSVG>
                   <StyledLowerTypography>{work.Time}</StyledLowerTypography>
                 </TimelineLowerItemWrapper>
               ) : (
@@ -188,7 +190,9 @@ const Timeline: React.FC = () => {
                   <ImageUpperWrapper>
                     <StyledUpperImage src={work.image} />
                   </ImageUpperWrapper>
-                  <StyledTimelineUpperItemSVG src={TimelineUpperItemSVG} />
+                  <StyledTimelineUpperItemSVG>
+                    <ReactSVG src={TimelineUpperItemSVG} />
+                  </StyledTimelineUpperItemSVG>
                   <StyledUpperTypography>{work.Time}</StyledUpperTypography>
                 </TimelineUpperItemWrapper>
               )}
@@ -196,7 +200,9 @@ const Timeline: React.FC = () => {
           );
         })}
       </TimelineItemWrapper>
-      <StyledReactSVG src={TimelineSVG} />
+      <StyledReactSVG>
+        <ReactSVG src={TimelineSVG} />
+      </StyledReactSVG>
     </TimelineWrapper>
   );
 };

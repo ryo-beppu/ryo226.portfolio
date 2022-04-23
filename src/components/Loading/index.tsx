@@ -51,7 +51,7 @@ const LoadContentWrapper = styled.div`
   display: flex;
 `;
 
-const StyledReactSVG = styled(ReactSVG)`
+const StyledReactSVG = styled.div`
   position: absolute;
   width: 100vw;
   object-fit: cover;
@@ -83,7 +83,9 @@ const Opening: React.FC = () => {
 
   return (
     <LoadContentWrapper>
-      <StyledReactSVG src={LoadingSVG} />
+      <StyledReactSVG>
+        <ReactSVG src={LoadingSVG} />
+      </StyledReactSVG>
       <StyledTypography
         onAnimationEnd={(event) =>
           event.animationName === "euuCaJ" &&

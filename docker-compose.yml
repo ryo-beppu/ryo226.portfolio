@@ -1,13 +1,12 @@
 version: '3'
 
 services:
-  node:
-    build:
-      context: ./
-      dockerfile: dockerfile
+  app:
+    image: node:14
     volumes:
       - ./:/ryo226.portfolio
       - /ryo226.portfolio/node_modules
+    working_dir:  /ryo226.portfolio
     command: sh -c "yarn && yarn start"
     tty: true
     ports:

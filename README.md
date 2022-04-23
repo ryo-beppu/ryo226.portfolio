@@ -10,10 +10,3 @@
 * React
 * Redux
 * TypeScript
-
-#### 使用ライブラリ
-* styled-components
-
-### バックエンド技術
-
-* Docker

@@ -3,7 +3,6 @@ import { useSelector } from "react-redux";
 import { WeatherProps } from "./Types";
 import Loading from "./Loading";
 import Timeline from "./Timeline";
-import Status from "./Status";
 
 const ChangeComponent: React.FC = () => {
   const stateResult = useSelector<WeatherProps, string>(
@@ -11,8 +10,6 @@ const ChangeComponent: React.FC = () => {
   );
 
   switch (stateResult) {
-    case "Status":
-      return <Status />;
     case "Timeline":
       return <Timeline />;
     default:
