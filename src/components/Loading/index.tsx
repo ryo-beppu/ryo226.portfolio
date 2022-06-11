@@ -89,7 +89,7 @@ const Opening: React.FC = () => {
       <StyledTypography
         onAnimationEnd={(event) =>
           event.animationName === "euuCaJ" &&
-          dispatch(ActionCreators.changeState("Timeline"))
+          dispatch(ActionCreators.changeState("Search"))
         }
       >
         LoadingComplete
