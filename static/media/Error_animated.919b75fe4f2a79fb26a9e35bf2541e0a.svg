@@ -4,7 +4,6 @@
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   viewBox="0 0 2560 1388"
-  style=""
 >
   <defs>
     <style>
@@ -314,7 +313,7 @@
     height="1388"
     d="M0 0 L2560 0 L2560 1388 L0 1388 Z"
   ></path>
-  <style data-made-with="vivus-instant">
+  <style>
     .civINDui_0 {
       stroke-dasharray: 3595 3597;
       stroke-dashoffset: 3596;
