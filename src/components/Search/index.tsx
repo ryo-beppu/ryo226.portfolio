@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { ReactSVG } from "react-svg";
 import styled, { keyframes } from "styled-components";
-import SearchBoxSVG from "../../images/SearchBox.svg";
+import SearchBoxSVG from "../../images/Search/SearchBox.svg";
+import { ProgressBar } from "./ProgressBar";
+import { Delay } from "../../utils";
 
 const fadeIn = keyframes`
   0%{
@@ -28,6 +30,7 @@ const blinkCursor = keyframes`
 `;
 
 const SearchContentWrapper = styled.div`
+  width: 100vw;
   height: 100vh;
   align-items: center;
   justify-content: center;
@@ -49,17 +52,44 @@ const SearchText = styled.p`
     ${blinkCursor} 0.5s steps(1) infinite alternate;
 `;
 
+const SearchingText = styled.p`
+  text-align: center;
+  font: 40px "Roboto";
+  color: white;
+  margin-bottom: 24px;
+`;
+
 const SearchBox = styled.div`
   position: absolute;
   opacity: 0;
   animation: ${fadeIn} 1s linear 0.5s forwards;
 `;
 
-export const Search: React.FC = () => (
-  <SearchContentWrapper>
-    <SearchBox>
-      <SearchText>Ryo Beppu</SearchText>
-      <ReactSVG src={SearchBoxSVG} />
-    </SearchBox>
-  </SearchContentWrapper>
-);
+export const Search: React.FC = () => {
+  const [isSearchEnd, setIsSearchEnd] = useState(false);
+
+  return (
+    <SearchContentWrapper>
+      <SearchBox>
+        {isSearchEnd ? (
+          <>
+            <SearchingText>Searching...</SearchingText>
+            <ProgressBar />
+          </>
+        ) : (
+          <>
+            <SearchText
+              onAnimationEnd={async () => {
+                await Delay(5);
+                setIsSearchEnd(true);
+              }}
+            >
+              Ryo Beppu
+            </SearchText>
+            <ReactSVG src={SearchBoxSVG} />
+          </>
+        )}
+      </SearchBox>
+    </SearchContentWrapper>
+  );
+};
