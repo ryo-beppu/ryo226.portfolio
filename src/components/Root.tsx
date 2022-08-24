@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { WeatherProps } from "./Types";
 import { Search } from "./Search";
 import Loading from "./Loading";
+import { Profile } from "./Profile";
 
 const ChangeComponent: React.FC = () => {
   const stateResult = useSelector<WeatherProps, string>(
@@ -12,6 +13,8 @@ const ChangeComponent: React.FC = () => {
   switch (stateResult) {
     case "Search":
       return <Search />;
+    case "Profile":
+      return <Profile />;
     default:
       return <Loading />;
   }

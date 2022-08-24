@@ -1,5 +1,7 @@
 import React from "react";
+import { useDispatch } from "react-redux";
 import styled, { keyframes } from "styled-components";
+import { ActionCreators } from "../../redux/action";
 
 const drawBar = keyframes`
   0%{
@@ -72,9 +74,17 @@ const LeftPath = styled.path`
 `;
 
 export const ProgressBar: React.FC = () => {
+  const dispatch = useDispatch();
+
   return (
     <ProgressBarWrapper>
-      <StyledBar viewBox="0 0 800 11">
+      <StyledBar
+        viewBox="0 0 800 11"
+        onAnimationEnd={(event) =>
+          event.animationName === "dqZYaj" &&
+          dispatch(ActionCreators.changeState("Profile"))
+        }
+      >
         <path d="M0 5.5H800" stroke="#C4C4C4" strokeWidth="11" />
       </StyledBar>
       <StyledProgressDesign viewBox="0 0 860 61">
