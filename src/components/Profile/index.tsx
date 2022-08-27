@@ -35,14 +35,29 @@ const StatusWrapper = styled.div`
 const ClockText = styled.p`
   font-size: 20px;
   color: white;
+  display: inline-block;
+  vertical-align: middle;
+`;
+
+const DateText = styled.p`
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  margin-left: 20px;
+  white-space: pre-wrap;
+  vertical-align: middle;
 `;
 
 export const Profile: React.FC = () => {
-  const [current, setCurrent] = useState("");
+  const [current, setCurrent] = useState("00:00:00");
+  const [date, setDate] = useState("xxx xxx xx xxxx\nxxx xxxxx");
 
   useEffect(() => {
     const timerId = setInterval(() => {
       setCurrent(new Date().toLocaleTimeString("en-GB"));
+      setDate(
+        `${new Date().toDateString()}\n${new Date().toString().split(" ")[5]}`
+      );
     }, 1000);
 
     return () => clearInterval(timerId);
@@ -55,6 +70,7 @@ export const Profile: React.FC = () => {
       </HeaderWrapper>
       <StatusWrapper>
         <ClockText>{current}</ClockText>
+        <DateText>{date}</DateText>
       </StatusWrapper>
       <Directory />
       <FooterWrapper>
