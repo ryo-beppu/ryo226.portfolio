@@ -22,7 +22,7 @@ const logger = createLogger({
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 let middleware = [];
-if (process.env.NODE_ENV === "development") {
+if (import.meta.env.DEV) {
   middleware = [thunk, logger];
 } else {
   middleware = [thunk];
