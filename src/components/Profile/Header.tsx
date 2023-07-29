@@ -1,6 +1,18 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 
+const Wrapper = styled.div`
+  position: relative;
+  /* width: calc(100% - 110px); */
+  height: 100px;
+  margin: 0px 55px;
+`;
+
+const HeaderSvg = styled.svg`
+  position: absolute;
+  bottom: 0;
+`;
+
 const drawPath = keyframes`
   100% {
     stroke-dashoffset: 0;
@@ -27,21 +39,28 @@ const Path3 = styled.path`
 
 export const Header: React.FC = () => {
   return (
-    <svg viewBox="0 0 1810 12" fill="none">
-      <path width="10" height="6" fill="#C4C4C4" d="M0 2 L10 2 L10 8 L0 8 Z" />
-      <path
-        width="39"
-        height="6"
-        fill="#C4C4C4"
-        d="M1771 6 L1810 6 L1810 12 L1771 12 Z"
-      />
-      <Path1
-        d="M20 2L706.82 2C707.596 2 708.361 2.18073 709.056 2.52786L714.944 5.47214C715.639 5.81927 716.404 6 717.18 6H1233"
-        stroke="#C4C4C4"
-        strokeWidth="3"
-      />
-      <Path2 d="M1233 2L1245 2" stroke="#C4C4C4" strokeWidth="3" />
-      <Path3 d="M1245 6H1761" stroke="#C4C4C4" strokeWidth="3" />
-    </svg>
+    <Wrapper>
+      <HeaderSvg viewBox="0 0 1810 12" fill="none">
+        <path
+          width="10"
+          height="6"
+          fill="#C4C4C4"
+          d="M0 2 L10 2 L10 8 L0 8 Z"
+        />
+        <path
+          width="39"
+          height="6"
+          fill="#C4C4C4"
+          d="M1771 6 L1810 6 L1810 12 L1771 12 Z"
+        />
+        <Path1
+          d="M20 2L706.82 2C707.596 2 708.361 2.18073 709.056 2.52786L714.944 5.47214C715.639 5.81927 716.404 6 717.18 6H1233"
+          stroke="#C4C4C4"
+          strokeWidth="3"
+        />
+        <Path2 d="M1233 2L1245 2" stroke="#C4C4C4" strokeWidth="3" />
+        <Path3 d="M1245 6H1761" stroke="#C4C4C4" strokeWidth="3" />
+      </HeaderSvg>
+    </Wrapper>
   );
 };

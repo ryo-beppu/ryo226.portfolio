@@ -6,7 +6,7 @@ import { createStore, applyMiddleware, compose } from "redux";
 import { Provider } from "react-redux";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import reducer from "./redux/reducer";
-import Root from "./components/Root";
+import { Root } from "./components/Root";
 import NotFound from "./components/NotFound";
 import Background from "./components/Background";
 

@@ -11,32 +11,47 @@ interface TimelineDataProps {
 }
 
 const DirectoryeData: TimelineDataProps[] = [
-  { title: "Profile", zIndex: 5, top: 63, left: 0 },
-  { title: "Skil", zIndex: 4, top: 56, left: 13 },
-  { title: "Work", zIndex: 3, top: 49, left: 26 },
-  { title: "Contact", zIndex: 2, top: 42, left: 39 },
+  { title: "Profile", zIndex: 5, top: 39, left: 0 },
+  { title: "Skil", zIndex: 4, top: 32, left: 13 },
+  { title: "Work", zIndex: 3, top: 25, left: 26 },
+  { title: "Contact", zIndex: 2, top: 18, left: 39 },
 ];
 
-const DirectoryWrapper = styled.div`
+const Wrapper = styled.div`
   position: absolute;
-  left: 250px;
-  height: 293px;
+  top: 36px;
+  width: 706px;
+  height: calc(100% - 36px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const DirectoryWrapper = styled.div`
   width: 376px;
+  height: 287px;
+`;
+
+const DirectoryItemsWrapper = styled.div`
+  position: relative;
+  height: 263px;
+`;
+
+const DataHitWrapper = styled.div`
+  height: 24px;
 `;
 
 const DataHitText = styled.p`
-  position: absolute;
   width: 376px;
+  height: 24px;
   color: white;
   margin: 0;
-  top: 0px;
   text-align: center;
   font-size: 20px;
 `;
 
 const Line = styled.svg`
   position: absolute;
-  top: 24px;
   width: 376px;
   height: 2px;
   fill: none;
@@ -71,25 +86,29 @@ export const Directory: React.FC = () => {
   const [directoryTitle, setDirectoryTitle] = useState("");
 
   return (
-    <DirectoryWrapper>
-      <DataHitText>{`Data Hit: ${DirectoryeData.length}`}</DataHitText>
-      <Line>
-        <path d="M0 1H376" stroke="#C4C4C4" />
-      </Line>
-      {DirectoryeData.map((directory) => {
-        return (
-          <StyledDirectory
-            key={directory.title}
-            top={directory.top}
-            left={directory.left}
-            index={directory.zIndex}
-            onMouseOver={() => setDirectoryTitle(directory.title)}
-          >
-            <ReactSVG src={DirectorySVG} />
-          </StyledDirectory>
-        );
-      })}
-      <TitleText>{directoryTitle}</TitleText>
-    </DirectoryWrapper>
+    <Wrapper>
+      <DirectoryWrapper>
+        <DataHitWrapper>
+          <DataHitText>{`Data Hit: ${DirectoryeData.length}`}</DataHitText>
+          <Line>
+            <path d="M0 1H376" stroke="#C4C4C4" />
+          </Line>
+        </DataHitWrapper>
+        <DirectoryItemsWrapper>
+          {DirectoryeData.map((directory) => (
+            <StyledDirectory
+              key={directory.title}
+              top={directory.top}
+              left={directory.left}
+              index={directory.zIndex}
+              onMouseOver={() => setDirectoryTitle(directory.title)}
+            >
+              <ReactSVG src={DirectorySVG} />
+            </StyledDirectory>
+          ))}
+          <TitleText>{directoryTitle}</TitleText>
+        </DirectoryItemsWrapper>
+      </DirectoryWrapper>
+    </Wrapper>
   );
 };

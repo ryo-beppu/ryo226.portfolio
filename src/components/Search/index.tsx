@@ -48,7 +48,7 @@ const SearchText = styled.p`
   top: 2px;
   left: 4px;
   border-right: 1px solid rgba(255, 255, 255, 0.5);
-  animation: ${typing} 4s steps(9) 1s forwards,
+  animation: ${typing} 3s steps(9) 1s forwards,
     ${blinkCursor} 0.5s steps(1) infinite alternate;
 `;
 
@@ -80,7 +80,7 @@ export const Search: React.FC = () => {
           <>
             <SearchText
               onAnimationEnd={async () => {
-                await Delay(5);
+                await Delay(2);
                 setIsSearchEnd(true);
               }}
             >

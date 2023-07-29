@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useDispatch } from "react-redux";
 import { ReactSVG } from "react-svg";
 import styled, { keyframes } from "styled-components";
 import LoadingSVG from "../../images/LoadingAnim.svg";
-import { getWeatherData, ActionCreators } from "../../redux/action";
+import { ActionCreators } from "../../redux/action";
 
 const fadeIn = keyframes`
   0%{
@@ -75,12 +75,8 @@ const StyledTypography = styled.p`
   will-change: ${fadeIn}, ${blink}, ${fadeOutText};
 `;
 
-const Opening: React.FC = () => {
+export const Loading: React.FC = () => {
   const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(getWeatherData());
-  }, []);
 
   return (
     <LoadContentWrapper>
@@ -98,5 +94,3 @@ const Opening: React.FC = () => {
     </LoadContentWrapper>
   );
 };
-
-export default Opening;
