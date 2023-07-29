@@ -1,53 +1,33 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import thunk from "redux-thunk";
-import { createLogger } from "redux-logger";
-import { createStore, applyMiddleware, compose } from "redux";
+import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import reducer from "./redux/reducer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { configureStore } from "@reduxjs/toolkit";
 import { Root } from "./components/Root";
 import NotFound from "./components/NotFound";
 import Background from "./components/Background";
+import { rootReducer } from "./redux/reducer";
 
-interface ExtendedWindow extends Window {
-  __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
-}
-declare let window: ExtendedWindow;
+const container = document.getElementById("app")!;
 
-const logger = createLogger({
-  diff: true,
-  collapsed: true,
-});
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const root = createRoot(container);
 
-let middleware = [];
-if (import.meta.env.DEV) {
-  middleware = [thunk, logger];
-} else {
-  middleware = [thunk];
-}
-
-const store = createStore(
-  reducer,
-  composeEnhancers(applyMiddleware(...middleware))
-);
+const store = configureStore({ reducer: rootReducer });
 
 const App: React.FC = () => {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/ryo226.portfolio" component={Root} />
-        <Route component={NotFound} />
-      </Switch>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/ryo226.portfolio" element={<Root />} />
+        <Route element={<NotFound />} />
+      </Routes>
       <Background />
-    </Router>
+    </BrowserRouter>
   );
 };
 
-ReactDOM.render(
+root.render(
   <Provider store={store}>
     <App />
-  </Provider>,
-  document.getElementById("app")
+  </Provider>
 );

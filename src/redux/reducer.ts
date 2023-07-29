@@ -14,7 +14,10 @@ const initalState: State = {
   chapter: "Opening",
 };
 
-const reducer: Reducer<State> = (state: State = initalState, action) => {
+export const rootReducer: Reducer<State> = (
+  state: State = initalState,
+  action
+) => {
   switch (action.type) {
     case ActionTypes.GET_WEATHER_REQUEST:
       return {
@@ -43,5 +46,3 @@ const reducer: Reducer<State> = (state: State = initalState, action) => {
       return state;
   }
 };
-
-export default reducer;
