@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 6
   cacheKey: 10c0
 
 "@ampproject/remapping@npm:^2.1.0":
@@ -6806,9 +6806,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A^2.3.2#optional!builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -11531,26 +11531,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.14.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.19.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.0#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.0#~builtin<compat/resolve>":
   version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#optional!builtin<compat/resolve>::version=1.22.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.8.1"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: ef8061e81f40c39070748e8e263c8767d8fcc7c34e9ee85211b29fbc2aedb1ae7cda7d735c2cdbe9367060e9f85ec11c2694e370c121c6bcbb472a7bd0b19555
+  checksum: 8/c79ecaea36c872ee4a79e3db0d3d4160b593f2ca16e031d8283735acd01715a203607e9ded3f91f68899c2937fa0d49390cddbe0fb2852629212f3cda283f4a7
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^2.0.0-next.3#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^2.0.0-next.3#~builtin<compat/resolve>":
   version: 2.0.0-next.3
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.3#optional!builtin<compat/resolve>::version=2.0.0-next.3&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.3#~builtin<compat/resolve>::version=2.0.0-next.3&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.2.0"
     path-parse: "npm:^1.0.6"
-  checksum: ecd5da8e5f3042952bd9fd46725ef850144e7c3d707d963039df677809716660ccf5efa66742fbc6796d280c23d18915384fada76869a9c554e15cf1e6df9278
+  checksum: 8/21684b4d99a4877337cdbd5484311c811b3e8910edb5d868eec85c6e6550b0f570d911f9a384f9e176172d6713f2715bd0b0887fa512cb8c6aeece018de6a9f8
   languageName: node
   linkType: hard
 
@@ -11627,40 +11627,40 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ryo226.portfolio@workspace:."
   dependencies:
-    "@testing-library/jest-dom": "npm:^4.2.4"
-    "@testing-library/react": "npm:^9.3.2"
-    "@testing-library/user-event": "npm:^7.1.2"
-    "@types/jest": "npm:^25.2.3"
-    "@types/node": "npm:^14.0.5"
-    "@types/react": "npm:^16.9.35"
-    "@types/react-dom": "npm:^16.9.8"
-    "@types/react-redux": "npm:^7.1.9"
-    "@types/react-router-dom": "npm:^5.1.5"
-    "@types/redux-logger": "npm:^3.0.8"
-    "@types/styled-components": "npm:^5.1.4"
-    "@typescript-eslint/eslint-plugin": "npm:^5.20.0"
-    "@typescript-eslint/parser": "npm:^5.20.0"
-    axios: "npm:^0.21.2"
-    eslint: "npm:^8.14.0"
-    eslint-config-airbnb: "npm:^18.2.0"
-    eslint-config-prettier: "npm:^6.11.0"
-    eslint-plugin-jest: "npm:^23.17.1"
-    eslint-plugin-prettier: "npm:^3.1.4"
-    gh-pages: "npm:^2.2.0"
-    moment: "npm:^2.29.4"
-    prettier: "npm:^2.0.5"
-    react: "npm:^16.13.1"
-    react-dom: "npm:^16.13.1"
-    react-redux: "npm:^7.2.0"
-    react-router-dom: "npm:^5.2.0"
-    react-scripts: "npm:5.0.1"
-    react-svg: "npm:^14.1.19"
-    react-transition-group: "npm:^4.4.1"
-    redux: "npm:^4.0.5"
-    redux-logger: "npm:^3.0.6"
-    redux-thunk: "npm:^2.3.0"
-    styled-components: "npm:^5.3.5"
-    typescript: "npm:^3.9.3"
+    "@testing-library/jest-dom": ^4.2.4
+    "@testing-library/react": ^9.3.2
+    "@testing-library/user-event": ^7.1.2
+    "@types/jest": ^25.2.3
+    "@types/node": ^14.0.5
+    "@types/react": ^16.9.35
+    "@types/react-dom": ^16.9.8
+    "@types/react-redux": ^7.1.9
+    "@types/react-router-dom": ^5.1.5
+    "@types/redux-logger": ^3.0.8
+    "@types/styled-components": ^5.1.4
+    "@typescript-eslint/eslint-plugin": ^5.20.0
+    "@typescript-eslint/parser": ^5.20.0
+    axios: ^0.21.2
+    eslint: ^8.14.0
+    eslint-config-airbnb: ^18.2.0
+    eslint-config-prettier: ^6.11.0
+    eslint-plugin-jest: ^23.17.1
+    eslint-plugin-prettier: ^3.1.4
+    gh-pages: ^2.2.0
+    moment: ^2.29.4
+    prettier: ^2.0.5
+    react: ^16.13.1
+    react-dom: ^16.13.1
+    react-redux: ^7.2.0
+    react-router-dom: ^5.2.0
+    react-scripts: 5.0.1
+    react-svg: ^14.1.19
+    react-transition-group: ^4.4.1
+    redux: ^4.0.5
+    redux-logger: ^3.0.6
+    redux-thunk: ^2.3.0
+    styled-components: ^5.3.5
+    typescript: ^3.9.3
   languageName: unknown
   linkType: soft
 
@@ -12911,13 +12911,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^3.9.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@^3.9.3#~builtin<compat/typescript>":
   version: 3.9.10
-  resolution: "typescript@patch:typescript@npm%3A3.9.10#optional!builtin<compat/typescript>::version=3.9.10&hash=3bd3d3"
+  resolution: "typescript@patch:typescript@npm%3A3.9.10#~builtin<compat/typescript>::version=3.9.10&hash=3bd3d3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 9041fb3886e7d6a560f985227b8c941d17a750f2edccb5f9b3a15a2480574654d9be803ad4a14aabcc2f2553c4d272a25fd698a7c42692f03f66b009fb46883c
+  checksum: 8/dc7141ab555b23a8650a6787f98845fc11692063d02b75ff49433091b3af2fe3d773650dea18389d7c21f47d620fb3b110ea363dab4ab039417a6ccbbaf96fc2
   languageName: node
   linkType: hard
 
@@ -13433,9 +13433,9 @@ __metadata:
   linkType: hard
 
 "word-wrap@npm:^1.2.3, word-wrap@npm:~1.2.3":
-  version: 1.2.3
-  resolution: "word-wrap@npm:1.2.3"
-  checksum: 1cb6558996deb22c909330db1f01d672feee41d7f0664492912de3de282da3f28ba2d49e87b723024e99d56ba2dac2f3ab28f8db07ac199f5e5d5e2e437833de
+  version: 1.2.5
+  resolution: "word-wrap@npm:1.2.5"
+  checksum: 8/f93ba3586fc181f94afdaff3a6fef27920b4b6d9eaefed0f428f8e07adea2a7f54a5f2830ce59406c8416f033f86902b91eb824072354645eea687dff3691ccb
   languageName: node
   linkType: hard
 
