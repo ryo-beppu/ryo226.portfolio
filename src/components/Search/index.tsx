@@ -4,6 +4,7 @@ import styled, { keyframes } from "styled-components";
 import SearchBoxSVG from "../../images/Search/SearchBox.svg";
 import { ProgressBar } from "./ProgressBar";
 import { Delay } from "../../utils";
+import { TYPOGRAPHY_COLOR } from "../../constants";
 
 const fadeIn = keyframes`
   0%{
@@ -43,7 +44,7 @@ const SearchText = styled.p`
   font: 40px "IBM Plex Mono", monospace;
   white-space: nowrap;
   overflow: hidden;
-  color: white;
+  color: ${TYPOGRAPHY_COLOR};
   margin: 0;
   top: 2px;
   left: 4px;
@@ -55,7 +56,7 @@ const SearchText = styled.p`
 const SearchingText = styled.p`
   text-align: center;
   font: 40px "Roboto";
-  color: white;
+  color: ${TYPOGRAPHY_COLOR};
   margin-bottom: 24px;
 `;
 

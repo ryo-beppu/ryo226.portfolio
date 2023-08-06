@@ -6,7 +6,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import { Root } from "./components/Root";
 import NotFound from "./components/NotFound";
 import Background from "./components/Background";
-import { rootReducer } from "./redux/reducer";
+import { rootReducer } from "./modules";
 
 const container = document.getElementById("app")!;
 

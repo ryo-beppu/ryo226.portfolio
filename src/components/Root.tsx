@@ -1,16 +1,13 @@
 import React from "react";
-import { useSelector } from "react-redux";
-import { WeatherProps } from "./Types";
 import { Search } from "./Search";
 import { Loading } from "./Loading";
 import { Profile } from "./Profile";
+import { useSelector } from "../modules";
 
 const ChangeComponent: React.FC = () => {
-  const stateResult = useSelector<WeatherProps, string>(
-    (state) => state.chapter
-  );
+  const chapter = useSelector((state) => state.ui.chapter);
 
-  switch (stateResult) {
+  switch (chapter) {
     case "Search":
       return <Search />;
     case "Profile":

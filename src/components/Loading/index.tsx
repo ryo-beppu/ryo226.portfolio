@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { ReactSVG } from "react-svg";
 import styled, { keyframes } from "styled-components";
 import LoadingSVG from "../../images/LoadingAnim.svg";
-import { ActionCreators } from "../../redux/action";
+import { actions } from "../../modules/ui";
 
 const fadeIn = keyframes`
   0%{
@@ -86,7 +86,7 @@ export const Loading: React.FC = () => {
       <StyledTypography
         onAnimationEnd={(event) =>
           event.animationName === "euuCaJ" &&
-          dispatch(ActionCreators.changeState("Search"))
+          dispatch(actions.setChapter("Search"))
         }
       >
         LoadingComplete

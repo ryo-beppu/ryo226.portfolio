@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { ReactSVG } from "react-svg";
 import DirectorySVG from "../../images/Profile/Directory.svg";
+import { TYPOGRAPHY_COLOR } from "../../constants";
 
 interface TimelineDataProps {
   title: string;
@@ -39,12 +40,13 @@ const DirectoryItemsWrapper = styled.div`
 
 const DataHitWrapper = styled.div`
   height: 24px;
+  position: relative;
 `;
 
 const DataHitText = styled.p`
   width: 376px;
   height: 24px;
-  color: white;
+  color: ${TYPOGRAPHY_COLOR};
   margin: 0;
   text-align: center;
   font-size: 20px;
@@ -55,6 +57,14 @@ const Line = styled.svg`
   width: 376px;
   height: 2px;
   fill: none;
+`;
+
+const DirectoryTitleRectangle = styled.svg`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 5px;
 `;
 
 const StyledDirectory = styled.div<{
@@ -75,20 +85,27 @@ const StyledDirectory = styled.div<{
 const TitleText = styled.p`
   position: absolute;
   width: 376px;
-  color: white;
+  color: ${TYPOGRAPHY_COLOR};
   margin: 0;
   bottom: 0px;
   text-align: center;
   font-size: 20px;
 `;
 
-export const Directory: React.FC = () => {
+interface Props {
+  onDirectoryClick: (name: string) => void;
+}
+
+export const Directory: React.FC<Props> = ({ onDirectoryClick }) => {
   const [directoryTitle, setDirectoryTitle] = useState("");
 
   return (
     <Wrapper>
       <DirectoryWrapper>
         <DataHitWrapper>
+          <DirectoryTitleRectangle>
+            <rect x="0.5" y="0.5" width="9" height="4" stroke="#C4C4C4" />
+          </DirectoryTitleRectangle>
           <DataHitText>{`Data Hit: ${DirectoryeData.length}`}</DataHitText>
           <Line>
             <path d="M0 1H376" stroke="#C4C4C4" />
@@ -102,6 +119,7 @@ export const Directory: React.FC = () => {
               left={directory.left}
               index={directory.zIndex}
               onMouseOver={() => setDirectoryTitle(directory.title)}
+              onClick={() => onDirectoryClick(directory.title)}
             >
               <ReactSVG src={DirectorySVG} />
             </StyledDirectory>

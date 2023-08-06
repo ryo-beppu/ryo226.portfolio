@@ -38,7 +38,21 @@ const LowerRightContent = styled.div`
   right: 10px;
 `;
 
+const Copyright = styled.div`
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
 const Background: React.FC = () => {
+  const CopyrightText = ` 2018-${new Date().getFullYear()} Ryo Beppu.`;
+
   return (
     <BackgroundWrapper>
       <UpperLeftContent>
@@ -53,6 +67,10 @@ const Background: React.FC = () => {
       <LowerRightContent>
         <ReactSVG src={LowerRightSVG} />
       </LowerRightContent>
+      <Copyright>
+        &copy;
+        {CopyrightText}
+      </Copyright>
     </BackgroundWrapper>
   );
 };

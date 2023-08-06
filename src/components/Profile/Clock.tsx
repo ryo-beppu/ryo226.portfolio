@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ReactSVG } from "react-svg";
 import styled from "styled-components";
 import ClockItem from "../../images/Profile/ClockItem.svg";
+import { TYPOGRAPHY_COLOR } from "../../constants";
 
 const Wrapper = styled.div`
   position: absolute;
@@ -20,7 +21,7 @@ const ClockItemWrapper = styled.div`
 
 const ClockText = styled.p`
   font-size: 20px;
-  color: white;
+  color: ${TYPOGRAPHY_COLOR};
   display: inline-block;
   vertical-align: middle;
   margin: 0px;
@@ -28,7 +29,7 @@ const ClockText = styled.p`
 
 const DateText = styled.p`
   font-size: 12px;
-  color: white;
+  color: ${TYPOGRAPHY_COLOR};
   display: inline-block;
   margin-left: 20px;
   white-space: pre-wrap;
@@ -37,8 +38,8 @@ const DateText = styled.p`
 `;
 
 export const Clock: React.FC = () => {
-  const [current, setCurrent] = useState("");
-  const [date, setDate] = useState("");
+  const [current, setCurrent] = useState("00:00:00");
+  const [date, setDate] = useState("xxx xxx xx xxxx\nxxx xxxxx");
 
   useEffect(() => {
     const timerId = setInterval(() => {
