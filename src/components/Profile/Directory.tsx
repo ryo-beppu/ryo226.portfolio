@@ -13,7 +13,7 @@ interface TimelineDataProps {
 
 const DirectoryeData: TimelineDataProps[] = [
   { title: "Profile", zIndex: 5, top: 39, left: 0 },
-  { title: "Skil", zIndex: 4, top: 32, left: 13 },
+  { title: "Skill", zIndex: 4, top: 32, left: 13 },
   { title: "Work", zIndex: 3, top: 25, left: 26 },
   { title: "Contact", zIndex: 2, top: 18, left: 39 },
 ];

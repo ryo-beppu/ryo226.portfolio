@@ -32,8 +32,6 @@ const GetAge = ({
   return today.getFullYear() - birthday.getFullYear();
 };
 
-const Wrapper = styled.div``;
-
 const StyledTypography = styled.p`
   color: ${TYPOGRAPHY_COLOR};
   margin: 0px;
@@ -42,11 +40,11 @@ const StyledTypography = styled.p`
 
 export const Profile: React.FC = () => {
   return (
-    <Wrapper>
+    <div>
       <StyledTypography>Name: Ryo Beppu</StyledTypography>
       <StyledTypography>D.O.B: 02/26/1998</StyledTypography>
       <StyledTypography>{`Age: ${GetAge(BIRTHDAY)}`}</StyledTypography>
       <StyledTypography>Occupation: Web Engineer</StyledTypography>
-    </Wrapper>
+    </div>
   );
 };
