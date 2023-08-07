@@ -1,0 +1,44 @@
+import React from "react";
+import styled from "styled-components";
+
+const CardWrapper = styled.div`
+  display: grid;
+  gap: 20px;
+`;
+
+export const Work: React.FC = () => {
+  return (
+    <CardWrapper>
+      <a
+        href="https://github.com/ryo-beppu/ryo226.portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://github-readme-stats.vercel.app/api/pin/?username=ryo-beppu&repo=ryo226.portfolio&show_owner=true"
+          aria-label="ryo226.portfolio Card"
+        />
+      </a>
+      <a
+        href="https://github.com/ryo-beppu/ryo-beppu.github.io"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://github-readme-stats.vercel.app/api/pin/?username=ryo-beppu&repo=ryo-beppu.github.io&show_owner=true"
+          aria-label="ryo-beppu.github.io Card"
+        />
+      </a>
+      <a
+        href="https://github.com/nukoneko-tarou/elves"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://github-readme-stats.vercel.app/api/pin/?username=nukoneko-tarou&repo=elves&show_owner=true"
+          aria-label="elves Card"
+        />
+      </a>
+    </CardWrapper>
+  );
+};

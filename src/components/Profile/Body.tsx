@@ -6,6 +6,7 @@ import { Profile } from "./Contents/Profile";
 import { NoSelect } from "./Contents/NoSelect";
 import { Skill } from "./Contents/Skill";
 import { Contact } from "./Contents/Contact";
+import { Work } from "./Contents/Work";
 
 const Wrapper = styled.div`
   position: relative;
@@ -56,6 +57,7 @@ export const Body: React.FC = () => {
       <RighttWrapper>
         {directory === "Profile" && <Profile />}
         {directory === "Skill" && <Skill />}
+        {directory === "Work" && <Work />}
         {directory === "Contact" && <Contact />}
         {directory === "" && <NoSelect />}
         <RightItem>
