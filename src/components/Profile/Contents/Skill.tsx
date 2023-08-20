@@ -39,10 +39,12 @@ export const Skill: React.FC = () => {
             <img
               src="https://github-readme-stats.vercel.app/api?username=ryo-beppu&theme=prussian&show_icons=true&include_all_commits=true&hide_rank=true"
               aria-label="GitHub Stats Card"
+              rel="preload"
             />
             <img
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=ryo-beppu&theme=prussian&show_icons=true"
               aria-label="Top Languages Card"
+              rel="preload"
             />
           </CardWrapper>
         </div>
@@ -52,10 +54,12 @@ export const Skill: React.FC = () => {
             <img
               src="https://github-readme-stats.vercel.app/api?username=nukoneko-tarou&theme=prussian&show_icons=true&include_all_commits=true&hide_rank=true"
               aria-label="GitHub Stats Card"
+              rel="preload"
             />
             <img
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=nukoneko-tarou&theme=prussian&show_icons=true"
               aria-label="Top Languages Card"
+              rel="preload"
             />
           </CardWrapper>
         </div>

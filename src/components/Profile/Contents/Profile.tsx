@@ -35,7 +35,7 @@ const GetAge = ({
 const StyledTypography = styled.p`
   color: ${TYPOGRAPHY_COLOR};
   margin: 0px;
-  font-size: 40px;
+  font-size: 30px;
 `;
 
 export const Profile: React.FC = () => {
