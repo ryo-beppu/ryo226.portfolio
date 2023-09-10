@@ -2,16 +2,16 @@ import React from "react";
 
 import styled from "styled-components";
 
-import { TYPOGRAPHY_COLOR } from "../../../constants";
+import { BASE_COLOR } from "../../../constants";
 
 const TitleTypography = styled.p`
-  color: ${TYPOGRAPHY_COLOR};
+  color: ${BASE_COLOR};
   margin: 0px;
   font-size: 30px;
 `;
 
 const UserNameTypography = styled.p`
-  color: ${TYPOGRAPHY_COLOR};
+  color: ${BASE_COLOR};
   margin: 0px;
   font-size: 20px;
 `;

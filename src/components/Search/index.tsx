@@ -3,7 +3,7 @@ import { ReactSVG } from "react-svg";
 
 import styled, { keyframes } from "styled-components";
 
-import { TYPOGRAPHY_COLOR } from "../../constants";
+import { BASE_COLOR } from "../../constants";
 import SearchBoxSVG from "../../images/Search/SearchBox.svg";
 import { Delay } from "../../utils";
 
@@ -47,7 +47,7 @@ const SearchText = styled.p`
   font: 40px "IBM Plex Mono", monospace;
   white-space: nowrap;
   overflow: hidden;
-  color: ${TYPOGRAPHY_COLOR};
+  color: ${BASE_COLOR};
   margin: 0;
   top: 2px;
   left: 4px;
@@ -59,7 +59,7 @@ const SearchText = styled.p`
 const SearchingText = styled.p`
   text-align: center;
   font: 40px "Roboto";
-  color: ${TYPOGRAPHY_COLOR};
+  color: ${BASE_COLOR};
   margin-bottom: 24px;
 `;
 

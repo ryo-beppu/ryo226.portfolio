@@ -3,7 +3,7 @@ import { ReactSVG } from "react-svg";
 
 import styled from "styled-components";
 
-import { TYPOGRAPHY_COLOR } from "../../constants";
+import { BASE_COLOR } from "../../constants";
 import DirectorySVG from "../../images/Profile/Directory.svg";
 
 interface TimelineDataProps {
@@ -48,7 +48,7 @@ const DataHitWrapper = styled.div`
 const DataHitText = styled.p`
   width: 376px;
   height: 24px;
-  color: ${TYPOGRAPHY_COLOR};
+  color: ${BASE_COLOR};
   margin: 0;
   text-align: center;
   font-size: 20px;
@@ -87,7 +87,7 @@ const StyledDirectory = styled.div<{
 const TitleText = styled.p`
   position: absolute;
   width: 376px;
-  color: ${TYPOGRAPHY_COLOR};
+  color: ${BASE_COLOR};
   margin: 0;
   bottom: 0px;
   text-align: center;

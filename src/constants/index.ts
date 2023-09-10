@@ -1,1 +1,1 @@
-export const TYPOGRAPHY_COLOR = "#c4c4c4";
+export const BASE_COLOR = "#c4c4c4";

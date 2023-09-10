@@ -3,7 +3,7 @@ import { ReactSVG } from "react-svg";
 
 import styled from "styled-components";
 
-import { TYPOGRAPHY_COLOR } from "../../constants";
+import { BASE_COLOR } from "../../constants";
 import ClockItem from "../../images/Profile/ClockItem.svg";
 
 const Wrapper = styled.div`
@@ -23,7 +23,7 @@ const ClockItemWrapper = styled.div`
 
 const ClockText = styled.p`
   font-size: 20px;
-  color: ${TYPOGRAPHY_COLOR};
+  color: ${BASE_COLOR};
   display: inline-block;
   vertical-align: middle;
   margin: 0px;
@@ -31,7 +31,7 @@ const ClockText = styled.p`
 
 const DateText = styled.p`
   font-size: 12px;
-  color: ${TYPOGRAPHY_COLOR};
+  color: ${BASE_COLOR};
   display: inline-block;
   margin-left: 20px;
   white-space: pre-wrap;

@@ -2,12 +2,12 @@ import React from "react";
 
 import styled from "styled-components";
 
-import { TYPOGRAPHY_COLOR } from "../../../constants";
+import { BASE_COLOR } from "../../../constants";
 import GithubIcon from "../../../images/Logo/Github.svg";
 import XLogoSvg from "../../../images/Logo/X.svg";
 
 const StyledLink = styled.a`
-  color: ${TYPOGRAPHY_COLOR};
+  color: ${BASE_COLOR};
   margin: 0px;
   font-size: 20px;
   text-decoration: none;
@@ -29,7 +29,7 @@ const Logo = styled.img`
 `;
 
 const UserNameTypography = styled.p`
-  color: ${TYPOGRAPHY_COLOR};
+  color: ${BASE_COLOR};
   margin: 0px;
   font-size: 30px;
 `;

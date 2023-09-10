@@ -1,5 +1,5 @@
 import React from "react";
-import { Provider } from "react-redux";
+import { Provider, ProviderProps } from "react-redux";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { configureStore } from "@reduxjs/toolkit";
@@ -29,7 +29,7 @@ const App: React.FC = () => {
 };
 
 root.render(
-  <Provider store={store}>
+  <Provider store={store as ProviderProps["store"]}>
     <App />
   </Provider>
 );

@@ -2,7 +2,7 @@ import React from "react";
 
 import styled from "styled-components";
 
-import { TYPOGRAPHY_COLOR } from "../../../constants";
+import { BASE_COLOR } from "../../../constants";
 
 const BIRTHDAY = {
   year: 1998,
@@ -35,7 +35,7 @@ const GetAge = ({
 };
 
 const StyledTypography = styled.p`
-  color: ${TYPOGRAPHY_COLOR};
+  color: ${BASE_COLOR};
   margin: 0px;
   font-size: 30px;
 `;
