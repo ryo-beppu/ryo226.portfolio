@@ -1,6 +1,8 @@
 import React from "react";
 import { ReactSVG } from "react-svg";
+
 import styled from "styled-components";
+
 import error from "../images/Error_animated.svg";
 
 const NotFoundWrapper = styled.div`

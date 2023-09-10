@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import { ReactSVG } from "react-svg";
-import DirectorySVG from "../../images/Profile/Directory.svg";
+
+import styled from "styled-components";
+
 import { TYPOGRAPHY_COLOR } from "../../constants";
+import DirectorySVG from "../../images/Profile/Directory.svg";
 
 interface TimelineDataProps {
   title: string;

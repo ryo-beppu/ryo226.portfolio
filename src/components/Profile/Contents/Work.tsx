@@ -1,5 +1,7 @@
 import React from "react";
+
 import styled from "styled-components";
+
 import { TYPOGRAPHY_COLOR } from "../../../constants";
 
 const CardWrapper = styled.div`

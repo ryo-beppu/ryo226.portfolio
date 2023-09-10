@@ -1,12 +1,14 @@
 import React, { useState } from "react";
+
 import styled from "styled-components";
+
 import { Clock } from "./Clock";
-import { Directory } from "./Directory";
-import { Profile } from "./Contents/Profile";
-import { NoSelect } from "./Contents/NoSelect";
-import { Skill } from "./Contents/Skill";
 import { Contact } from "./Contents/Contact";
+import { NoSelect } from "./Contents/NoSelect";
+import { Profile } from "./Contents/Profile";
+import { Skill } from "./Contents/Skill";
 import { Work } from "./Contents/Work";
+import { Directory } from "./Directory";
 
 const Wrapper = styled.div`
   position: relative;

@@ -1,15 +1,17 @@
 import React from "react";
 import { ReactSVG } from "react-svg";
+
 import styled, { keyframes } from "styled-components";
-import TimelineSVG from "../../images/Timeline/Timeline.svg";
+
 import TimelineLowerItemSVG from "../../images/Timeline/Lower.svg";
+import TimelineSVG from "../../images/Timeline/Timeline.svg";
 import TimelineUpperItemSVG from "../../images/Timeline/Upper.svg";
-import Parkour from "../../images/Timeline/Works/Parkour.png";
 import ActionGame from "../../images/Timeline/Works/ActionGame.png";
 import Emotion from "../../images/Timeline/Works/Emotion.png";
 import Fujisawa from "../../images/Timeline/Works/Fujisawa.png";
-import Sparkler from "../../images/Timeline/Works/Sparkler.png";
 import OpenWeatherMapPlugin from "../../images/Timeline/Works/OpenWeatherMapPlugin.png";
+import Parkour from "../../images/Timeline/Works/Parkour.png";
+import Sparkler from "../../images/Timeline/Works/Sparkler.png";
 
 interface TimelineDataProps {
   image: string;

@@ -1,8 +1,10 @@
 import React from "react";
+
 import styled from "styled-components";
+
 import { TYPOGRAPHY_COLOR } from "../../../constants";
-import XLogoSvg from "../../../images/Logo/X.svg";
 import GithubIcon from "../../../images/Logo/Github.svg";
+import XLogoSvg from "../../../images/Logo/X.svg";
 
 const StyledLink = styled.a`
   color: ${TYPOGRAPHY_COLOR};

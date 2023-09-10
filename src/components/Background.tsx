@@ -1,10 +1,12 @@
 import React from "react";
 import { ReactSVG } from "react-svg";
+
 import styled from "styled-components";
-import UpperLeftSVG from "../images/Background/UpperLeft.svg";
+
 import LowerLeftSVG from "../images/Background/LowerLeft.svg";
-import UpperRightSVG from "../images/Background/UpperRight.svg";
 import LowerRightSVG from "../images/Background/LowerRight.svg";
+import UpperLeftSVG from "../images/Background/UpperLeft.svg";
+import UpperRightSVG from "../images/Background/UpperRight.svg";
 
 const BackgroundWrapper = styled.div`
   width: 100vw;

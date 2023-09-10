@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { ReactSVG } from "react-svg";
+
 import styled, { keyframes } from "styled-components";
-import SearchBoxSVG from "../../images/Search/SearchBox.svg";
-import { ProgressBar } from "./ProgressBar";
-import { Delay } from "../../utils";
+
 import { TYPOGRAPHY_COLOR } from "../../constants";
+import SearchBoxSVG from "../../images/Search/SearchBox.svg";
+import { Delay } from "../../utils";
+
+import { ProgressBar } from "./ProgressBar";
 
 const fadeIn = keyframes`
   0%{

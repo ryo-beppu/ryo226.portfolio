@@ -1,8 +1,10 @@
 import React from "react";
+
 import styled from "styled-components";
-import { Header } from "./Header";
-import { Footer } from "./Footer";
+
 import { Body } from "./Body";
+import { Footer } from "./Footer";
+import { Header } from "./Header";
 
 const Wrapper = styled.div`
   position: absolute;

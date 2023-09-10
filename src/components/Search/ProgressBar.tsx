@@ -1,6 +1,8 @@
 import React from "react";
 import { useDispatch } from "react-redux";
+
 import styled, { keyframes } from "styled-components";
+
 import { actions } from "../../modules/ui";
 
 const drawBar = keyframes`

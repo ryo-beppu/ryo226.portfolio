@@ -1,8 +1,10 @@
 import React from "react";
-import { Search } from "./Search";
+
+import { useSelector } from "../modules";
+
 import { Loading } from "./Loading";
 import { Profile } from "./Profile";
-import { useSelector } from "../modules";
+import { Search } from "./Search";
 
 const ChangeComponent: React.FC = () => {
   const chapter = useSelector((state) => state.ui.chapter);

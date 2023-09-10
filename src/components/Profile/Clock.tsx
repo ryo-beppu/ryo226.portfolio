@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { ReactSVG } from "react-svg";
+
 import styled from "styled-components";
-import ClockItem from "../../images/Profile/ClockItem.svg";
+
 import { TYPOGRAPHY_COLOR } from "../../constants";
+import ClockItem from "../../images/Profile/ClockItem.svg";
 
 const Wrapper = styled.div`
   position: absolute;
