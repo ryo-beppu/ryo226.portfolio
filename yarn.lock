@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 6
   cacheKey: 10
 
 "@aashutoshrathi/word-wrap@npm:^1.2.3":
@@ -3058,9 +3058,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -4538,13 +4538,13 @@ __metadata:
   linkType: hard
 
 "postcss@npm:^8.4.26":
-  version: 8.4.27
-  resolution: "postcss@npm:8.4.27"
+  version: 8.4.31
+  resolution: "postcss@npm:8.4.31"
   dependencies:
-    nanoid: "npm:^3.3.6"
-    picocolors: "npm:^1.0.0"
-    source-map-js: "npm:^1.0.2"
-  checksum: 57143e3c5ddaba9813ebd81de3e38e3ac198b0a1634e57752d29cd4936f1301eba38e43bda1302859679af047a6efc4366952d294c64358f8b90fbf49ba7d121
+    nanoid: ^3.3.6
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 8/1d8611341b073143ad90486fcdfeab49edd243377b1f51834dc4f6d028e82ce5190e4f11bb2633276864503654fb7cab28e67abdc0fbf9d1f88cad4a0ff0beea
   languageName: node
   linkType: hard
 
@@ -4913,29 +4913,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.22.1#~builtin<compat/resolve>":
   version: 1.22.3
-  resolution: "resolve@patch:resolve@npm%3A1.22.3#optional!builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.12.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: b775dffbad4d4ed3ae498a37d33a96282d64de50955f7642258aeaa2886e419598f4dfe837c0e31bcc6eb448287c1578e899dffe49eca76ef393bf8605a3b543
+  checksum: 8/ad59734723b596d0891321c951592ed9015a77ce84907f89c9d9307dd0c06e11a67906a3e628c4cae143d3e44898603478af0ddeb2bba3f229a9373efe342665
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^2.0.0-next.4#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#optional!builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.9.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 27bff19d8219385bb1e271066317e553cff18daa2a19db9598d94ae444417ef3f5aec19e86927872d6cb241d02649cfb35a4c0d9d10ef2afa6325bce8bc8d903
+  checksum: 8/4bf9f4f8a458607af90518ff73c67a4bc1a38b5a23fef2bb0ccbd45e8be89820a1639b637b0ba377eb2be9eedfb1739a84cde24fe4cd670c8207d8fea922b011
   languageName: node
   linkType: hard
 
@@ -4991,47 +4991,47 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ryo226.portfolio@workspace:."
   dependencies:
-    "@reduxjs/toolkit": "npm:^1.9.5"
-    "@testing-library/jest-dom": "npm:^4.2.4"
-    "@testing-library/react": "npm:^9.5.0"
-    "@testing-library/user-event": "npm:^7.2.1"
-    "@types/jest": "npm:^25.2.3"
-    "@types/node": "npm:^14.18.54"
-    "@types/react": "npm:^18.2.17"
-    "@types/react-dom": "npm:^18.2.7"
-    "@types/react-redux": "npm:^7.1.25"
-    "@types/react-router-dom": "npm:^5.3.3"
-    "@types/redux-logger": "npm:^3.0.9"
-    "@types/styled-components": "npm:^5.1.26"
-    "@typescript-eslint/eslint-plugin": "npm:^5.62.0"
-    "@typescript-eslint/parser": "npm:^5.62.0"
-    "@vitejs/plugin-react": "npm:^4.0.3"
-    axios: "npm:^1.4.0"
-    eslint: "npm:^8.46.0"
-    eslint-config-airbnb: "npm:^18.2.1"
-    eslint-config-prettier: "npm:^6.15.0"
-    eslint-plugin-import: "npm:^2.28.1"
-    eslint-plugin-jest: "npm:^23.20.0"
-    eslint-plugin-jsx-a11y: "npm:^6.7.1"
-    eslint-plugin-prettier: "npm:^3.4.1"
-    eslint-plugin-react: "npm:^7.33.0"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-unused-imports: "npm:^3.0.0"
-    gh-pages: "npm:^2.2.0"
-    moment: "npm:^2.29.4"
-    prettier: "npm:^2.8.8"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    react-redux: "npm:^7.2.9"
-    react-router-dom: "npm:^6.14.2"
-    react-svg: "npm:^14.1.19"
-    react-transition-group: "npm:^4.4.5"
-    redux: "npm:^4.2.1"
-    redux-logger: "npm:^3.0.6"
-    redux-thunk: "npm:^2.4.2"
-    styled-components: "npm:^5.3.11"
-    typescript: "npm:^5.1.6"
-    vite: "npm:^4.4.7"
+    "@reduxjs/toolkit": ^1.9.5
+    "@testing-library/jest-dom": ^4.2.4
+    "@testing-library/react": ^9.5.0
+    "@testing-library/user-event": ^7.2.1
+    "@types/jest": ^25.2.3
+    "@types/node": ^14.18.54
+    "@types/react": ^18.2.17
+    "@types/react-dom": ^18.2.7
+    "@types/react-redux": ^7.1.25
+    "@types/react-router-dom": ^5.3.3
+    "@types/redux-logger": ^3.0.9
+    "@types/styled-components": ^5.1.26
+    "@typescript-eslint/eslint-plugin": ^5.62.0
+    "@typescript-eslint/parser": ^5.62.0
+    "@vitejs/plugin-react": ^4.0.3
+    axios: ^1.4.0
+    eslint: ^8.46.0
+    eslint-config-airbnb: ^18.2.1
+    eslint-config-prettier: ^6.15.0
+    eslint-plugin-import: ^2.28.1
+    eslint-plugin-jest: ^23.20.0
+    eslint-plugin-jsx-a11y: ^6.7.1
+    eslint-plugin-prettier: ^3.4.1
+    eslint-plugin-react: ^7.33.0
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-unused-imports: ^3.0.0
+    gh-pages: ^2.2.0
+    moment: ^2.29.4
+    prettier: ^2.8.8
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-redux: ^7.2.9
+    react-router-dom: ^6.14.2
+    react-svg: ^14.1.19
+    react-transition-group: ^4.4.5
+    redux: ^4.2.1
+    redux-logger: ^3.0.6
+    redux-thunk: ^2.4.2
+    styled-components: ^5.3.11
+    typescript: ^5.1.6
+    vite: ^4.4.7
   languageName: unknown
   linkType: soft
 
@@ -5635,13 +5635,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.1.6#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>":
   version: 5.1.6
-  resolution: "typescript@patch:typescript@npm%3A5.1.6#optional!builtin<compat/typescript>::version=5.1.6&hash=5da071"
+  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f5481fa3ba0eee8970f46708d13c05650a865ad093b586fc9573f425c64c57ca97e3308e110bb528deb3ccebe83f6fd7b5a8ac90018038da96326a9ccdf8e77c
+  checksum: 8/f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
   languageName: node
   linkType: hard
 
