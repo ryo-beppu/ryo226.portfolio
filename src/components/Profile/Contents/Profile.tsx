@@ -24,7 +24,7 @@ const GetAge = ({
   const currentYearBirthday = new Date(
     today.getFullYear(),
     birthday.getMonth(),
-    birthday.getDate()
+    birthday.getDate(),
   );
 
   if (today < currentYearBirthday) {

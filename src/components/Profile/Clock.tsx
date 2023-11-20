@@ -47,7 +47,7 @@ export const Clock: React.FC = () => {
     const timerId = setInterval(() => {
       setCurrent(new Date().toLocaleTimeString("en-GB"));
       setDate(
-        `${new Date().toDateString()}\n${new Date().toString().split(" ")[5]}`
+        `${new Date().toDateString()}\n${new Date().toString().split(" ")[5]}`,
       );
     }, 1000);
 

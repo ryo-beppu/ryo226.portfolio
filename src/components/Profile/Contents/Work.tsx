@@ -26,7 +26,6 @@ export const Work: React.FC = () => {
         <img
           src="https://github-readme-stats.vercel.app/api/pin/?username=ryo-beppu&repo=ryo226.portfolio&show_owner=true"
           aria-label="ryo226.portfolio Card"
-          rel="preload"
         />
       </a>
       <a
@@ -37,7 +36,6 @@ export const Work: React.FC = () => {
         <img
           src="https://github-readme-stats.vercel.app/api/pin/?username=ryo-beppu&repo=ryo-beppu.github.io&show_owner=true"
           aria-label="ryo-beppu.github.io Card"
-          rel="preload"
         />
       </a>
       <a
@@ -48,7 +46,6 @@ export const Work: React.FC = () => {
         <img
           src="https://github-readme-stats.vercel.app/api/pin/?username=nukoneko-tarou&repo=elves&show_owner=true"
           aria-label="elves Card"
-          rel="preload"
         />
       </a>
       <div>

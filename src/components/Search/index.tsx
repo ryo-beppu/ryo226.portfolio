@@ -44,7 +44,9 @@ const SearchContentWrapper = styled.div`
 const SearchText = styled.p`
   position: absolute;
   width: 0ch;
-  font: 40px "IBM Plex Mono", monospace;
+  font:
+    40px "IBM Plex Mono",
+    monospace;
   white-space: nowrap;
   overflow: hidden;
   color: ${BASE_COLOR};
@@ -52,7 +54,8 @@ const SearchText = styled.p`
   top: 2px;
   left: 4px;
   border-right: 1px solid rgba(255, 255, 255, 0.5);
-  animation: ${typing} 3s steps(9) 1s forwards,
+  animation:
+    ${typing} 3s steps(9) 1s forwards,
     ${blinkCursor} 0.5s steps(1) infinite alternate;
 `;
 

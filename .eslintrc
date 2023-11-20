@@ -21,7 +21,7 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:import/typescript",
     "plugin:prettier/recommended",
-    "prettier/@typescript-eslint"
+    "plugin:react/recommended"
   ],
   "rules": {
     "import/extensions": "off",
@@ -73,6 +73,10 @@
         "pathGroupsExcludedImportTypes": ["react"]
       }
     ],
-    "unused-imports/no-unused-imports": "error"
+    "unused-imports/no-unused-imports": "error",
+    "react/function-component-definition": [ 
+      2,
+      { "namedComponents": "arrow-function" }
+    ]
   }
 }

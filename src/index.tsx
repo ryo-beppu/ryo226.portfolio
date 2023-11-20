@@ -31,5 +31,5 @@ const App: React.FC = () => {
 root.render(
   <Provider store={store as ProviderProps["store"]}>
     <App />
-  </Provider>
+  </Provider>,
 );

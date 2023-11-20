@@ -95,7 +95,9 @@ export const StyledTypography = styled.p`
   color: #c4c4c4;
   filter: drop-shadow(0 0 1px #c4c4c4) drop-shadow(0 0 10px #c4c4c4);
   will-change: opacity;
-  animation: ${fadeIn} 1s linear 3s forwards, ${blink} 2s 3s forwards,
+  animation:
+    ${fadeIn} 1s linear 3s forwards,
+    ${blink} 2s 3s forwards,
     ${fadeOutText} 3s linear 6s forwards;
 `;
 
@@ -109,55 +111,63 @@ export const StyledPath = styled.path`
 export const Fill1 = styled(StyledPath)`
   stroke-dasharray: 1462 1464;
   stroke-dashoffset: 1463;
-  animation: ${draw} 2s ease 0s forwards,
+  animation:
+    ${draw} 2s ease 0s forwards,
     ${reverseDraw(1463)} 2s ease 9s forwards;
 `;
 
 export const Fill2 = styled(StyledPath)`
   stroke-dasharray: 1462 1464;
   stroke-dashoffset: 1463;
-  animation: ${draw} 2s ease 0s forwards,
+  animation:
+    ${draw} 2s ease 0s forwards,
     ${reverseDraw(1463)} 2s ease 9s forwards;
 `;
 
 export const Fill3 = styled(StyledPath)`
   stroke-dasharray: 235 237;
   stroke-dashoffset: 236;
-  animation: ${draw} 2s ease 1s forwards,
+  animation:
+    ${draw} 2s ease 1s forwards,
     ${reverseDraw(236)} 2s ease 9s forwards;
 `;
 
 export const Fill4 = styled(StyledPath)`
   stroke-dasharray: 235 237;
   stroke-dashoffset: 236;
-  animation: ${draw} 2s ease 1s forwards,
+  animation:
+    ${draw} 2s ease 1s forwards,
     ${reverseDraw(236)} 2s ease 9s forwards;
 `;
 
 export const Fill5 = styled(StyledPath)`
   stroke-dasharray: 235 237;
   stroke-dashoffset: 236;
-  animation: ${draw} 2s ease 1s forwards,
+  animation:
+    ${draw} 2s ease 1s forwards,
     ${reverseDraw(236)} 2s ease 9s forwards;
 `;
 
 export const Fill6 = styled(StyledPath)`
   stroke-dasharray: 235 237;
   stroke-dashoffset: 236;
-  animation: ${draw} 2s ease 1s forwards,
+  animation:
+    ${draw} 2s ease 1s forwards,
     ${reverseDraw(236)} 2s ease 9s forwards;
 `;
 
 export const Fill7 = styled(StyledPath)`
   stroke-dasharray: 35 37;
   stroke-dashoffset: 36;
-  animation: ${draw} 2s ease 2s forwards,
+  animation:
+    ${draw} 2s ease 2s forwards,
     ${reverseDraw(36)} 2s ease 10s forwards;
 `;
 
 export const Fill8 = styled(StyledPath)`
   stroke-dasharray: 35 37;
   stroke-dashoffset: 36;
-  animation: ${draw} 2s ease 2s forwards,
+  animation:
+    ${draw} 2s ease 2s forwards,
     ${reverseDraw(36)} 2s ease 10s forwards;
 `;
