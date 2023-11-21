@@ -57,6 +57,7 @@
     "lint:fix": "yarn lint --fix 'src/**/{*.ts,*.tsx}'"
   },
   "resolutions": {
+    "react": "^18",
     "@types/react": "^18"
   },
   "volta": {
